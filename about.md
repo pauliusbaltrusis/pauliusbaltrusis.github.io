@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Introduction
-parent: Home
-nav_order: 1
+title: About
+nav_order: 2
+has_children: true
 ---
 
-# Introduction
-This is the introduction page content.
+# About
+Main page for the "About" section.
