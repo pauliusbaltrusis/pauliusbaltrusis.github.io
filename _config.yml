@@ -8,6 +8,11 @@ aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
 nav:
   - Home: /
-  - About: /about
-  - Projects: /projects
-  - Contact: /contact
+  - About: 
+      - About me: /aboutme
+      - About this website: /abouthiswebsite
+  - ddPCR:
+      - DNA: /DNA
+      - RNA: /RNA
+      - Protein: /Protein
+  - qPCR: /qPCR
