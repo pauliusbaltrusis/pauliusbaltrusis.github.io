@@ -1,5 +1,5 @@
 
-# How to use Just-the-docs below <->
+# How to use Just-the-docs below  <->
 ## just-the-docs-template
 
 This is a *bare-minimum* template to create a [Jekyll] site that:
