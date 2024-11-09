@@ -4,12 +4,11 @@ layout: home
 nav_order: 1
 ---
 
-# Welcome to My Website
-This is the homepage.
+# Welcome my PCR method repository!
+Feel free to browse the different PCR methods and guides. I will be updating this repo periodically and some things might be phased in and out, depending on their relevance. Stay tuned for new stuff on this PCR-method hub!
 
-# Title 1
-## Title 2
-### Title 3
+More info on the background and purpose of this website can be found in the [About this website](https://pauliusbaltrusis.github.io/abouthiswebsite.html) directory.
+
 ----
 
 [^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
