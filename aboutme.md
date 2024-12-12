@@ -6,4 +6,4 @@ nav_order: 1
 ---
 
 # About Me
-I am just a bored Field Application Specialist in Genomics at Bio-Rad Laboratories with too much time on my hands. If you'd like to read my CV click on My CV at the top right of the page or [here](https://pauliusbaltrusis.github.io/markdown-cv/)
+Hi. I work as an Application Specialist at Bio-Rad Laboratories and I have  too much free time. If you'd like to know my background click on *My CV* at the top right of the page or [here](https://pauliusbaltrusis.github.io/markdown-cv/).

@@ -3,16 +3,27 @@ description: This is where different PCR methods are collected and described!
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
-logo: "/assets/images/web.png"
+#logo: "/assets/images/web.png"
 aux_links:
-  My CV: https://pauliusbaltrusis.github.io/markdown-cv/
+  Home: https://pauliusbaltrusis.github.io/
 nav:
   - Home: /
   - About:
       - About me: /aboutme
       - About this website: /abouthiswebsite
   - ddPCR:
-      - DNA: /DNA
-      - RNA: /RNA
-      - Protein: /Protein
+    - Basics:
+      -Amplitude multiplexing: /Mds/PCR-method-library/Basics/Amplitude-multiplexing
+      -Basics of quantification and digital PCR assay design: /Mds/PCR-method-library/Basics/Basics-of-quantification-and-digital-PCR-assay-design
+      -Control sample types in ddPCR: /Mds/PCR-method-library/Basics/Control-sample-types-in-ddPCR
+      -Most common sample types in ddPCR: /Mds/PCR-method-library/Basics/Most-common-sample-types-in-ddPCR
+      -Primer and Probe design: /Mds/PCR-method-library/Basics/Primer-and-Probe-design
+    - Optimization:
+      - Dark probes: /Mds/PCR-method-library/Optimization/Dark-probes
+      - Establishing Limit of Blank Detection Quantification: /Mds/PCR-method-library/Optimization/Establishing-Limit-of-Blank-Detection-Quantification
+      - General best practises for running ddPCR and multiplexing: /Mds/PCR-method-library/Optimization/General-best-practises-for-running-ddPCR-and-multiplexing
+      - Locked-Nucleic Acids & Degenerate bases: /Mds/PCR-method-library/Optimization/Locked-Nucleic-Acids-and-Degenerate-bases
+      - Singleplex Multiplex ddPCR Reaction Optimization: /Mds/PCR-method-library/Optimization/Singleplex-Multiplex-ddPCR-Reaction-Optimization
+    - DNA based methods: /DNA
+    - RNA and Proteins-based methods: /RNA
   - qPCR: /qPCR
