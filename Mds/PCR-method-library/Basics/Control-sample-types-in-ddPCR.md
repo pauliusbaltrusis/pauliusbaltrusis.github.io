@@ -1,6 +1,10 @@
-# Control sample types in ddPCR
-
-Owner: Paulius Baltrušis
+---
+layout: default
+title: Control sample types in ddPCR
+parent: Basics
+nav_order: 3
+has_children: true
+---
 
 Arguably the most crucial part of any experiment is the control samples! ddPCR shares a number of similar control sample types with qPCR that should be run at the discretion of the user. I will provide an overview of some of the most common ones:
 
@@ -24,7 +28,7 @@ No-RT control is generally used in experiments where RNA is reverse-transcribed 
 
 Sometimes, however, you might want to spike in some a priori measured quantities of gDNA in your RNA/cDNA preps in order to determine whether your assays can amplify contaminating genomic DNA and thus generate a detectable signal. This control type uses genomic DNA as a template to verify that primers or probes do not cross-react with gDNA, which is especially important in RNA-based assays where only cDNA should be amplified (in e.g. intron-spanning assays).
 
-Both positive and negative controls are really important when taking the first steps in the characterization of your custom assay and become less important as you benchmark and describe your assay. Whereas NTCs are always useful, since they give insight on what background the assay generates when it’s in the mix by itself (without a target) as well as indicating whether or not there is some contamination of reagents. NTCs are also important in the very first runs where you are testing your assay, since this control type is used for the calculation of limit of blank (LoB), limit of detection (LoD) and limit of quantification (LoQ). No-RT control is a rather rare control type but is quite more often used in two-step (especially qPCR) protocols where the goal is evaluate if a new raw sample type (whether it’s a different tissue or different cells, etc.) or a new RNA extraction procedure retains gDNA (which can further generate false-positives) in the RNA preps. gDNA control is similarly a rare control type, which is typically used to generate a yes or no answer to whether or not a cDNA-specific assay can also cross-detect the gDNA spiked in by the user. 
+Both positive and negative controls are really important when taking the first steps in the characterization of your custom assay and become less important as you benchmark and describe your assay. Whereas NTCs are always useful, since they give insight on what background the assay generates when it’s in the mix by itself (without a target) as well as indicating whether or not there is some contamination of reagents. NTCs are also important in the very first runs where you are testing your assay, since this control type is used for the calculation of limit of blank (LoB), limit of detection (LoD) and limit of quantification (LoQ). No-RT control is a rather rare control type but is quite more often used in two-step (especially qPCR) protocols where the goal is evaluate if a new raw sample type (whether it’s a different tissue or different cells, etc.) or a new RNA extraction procedure retains gDNA (which can further generate false-positives) in the RNA preps. gDNA control is similarly a rare control type, which is typically used to generate a yes or no answer to whether or not a cDNA-specific assay can also cross-detect the gDNA spiked in by the user.
 
 By running appropriate controls along side the unknown samples you will have a much easier time telling what’s positive and what’s negative.
 

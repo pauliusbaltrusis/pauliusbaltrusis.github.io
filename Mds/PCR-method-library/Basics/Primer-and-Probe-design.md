@@ -1,10 +1,14 @@
-# Primer & Probe design
-
-Owner: Paulius Baltrušis
+---
+layout: default
+title: Primer and Probe design
+parent: Basics
+nav_order: 5
+has_children: true
+---
 
 The focus of this chapter is ddPCR basics and the tools that are at your disposal for you to create your very own ddPCR assay.
 
-Let’s say you’d like to create a simple gene target detection assay. What you need is: 
+Let’s say you’d like to create a simple gene target detection assay. What you need is:
 
 1. Primer pair sequences
 2. Optional: Probe sequence

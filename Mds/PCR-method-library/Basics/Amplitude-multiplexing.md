@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Amplitude multiplexing
+parent: Basics
 nav_order: 1
 has_children: true
 ---

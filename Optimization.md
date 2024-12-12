@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Optimization
-nav_order: 4
+parent: ddPCR
+nav_order: 2
 has_children: true
 ---
