@@ -5,42 +5,104 @@ parent: Basics
 nav_order: 5
 has_children: true
 ---
+# Primer and Probe design
 
-The focus of this chapter is ddPCR basics and the tools that are at your disposal for you to create your very own ddPCR assay.
+This chapter focuses on the basics of ddPCR and the tools available to help you design your very own ddPCR assay.
 
-Let’s say you’d like to create a simple gene target detection assay. What you need is:
+If you'd like to create a simple gene-target detection assay, you'll need:
 
-1. Primer pair sequences
-2. Optional: Probe sequence
+  - Primer pair sequences
+  - (Optional) Probe sequence
 
-Typically, singleplex (1 target at a time) detection of your target can be done by using a DNA intercalating dye such as EvaGreen, in which case probe sequence is not needed and only primers suffice. However, if you do want to multiplex, it’s a good idea to develop primer and probe pairs to begin with.
+For singleplex detection (one target at a time), you can use a DNA intercalating dye like EvaGreen, where probes aren’t necessary, and primers alone suffice. However, for multiplexing, it’s recommended to develop primer-probe pairs from the outset.
 
-The most well known and perhaps the most developed online tool for primer sequence development is [Primer3Plus]([https://www.primer3plus.com/index.html](https://www.primer3plus.com/index.html)). It’s easy to just paste in your target locus sequence, input the optimal amplicon sizes (60-200 bp), make sure the Tm of your primers does not exceed 65 degrees and that the G+C content is between 40-60 % (in addition to avoiding too many G/C repeats). Here are some options you can input in Prime3Plus that Bio-Rad recommends. **Under General Settings** a. Concentration of “divalent cations” = 3.8, “Concentration of dNTPs” = 0.8, “Mispriming/Repeat Library” = your organism of interest; **Under Advanced Settings** “Table of thermodynamic parameters” and “Salt correction formula” = SantaLucia 1998; **Under Internal Oligo** Bio-Rad recommends setting 15 for the minimum number of
-bases for the oligo. In addition, it’s recommend that 64°C are set as the minimum Tm for the probe, 65°C as the optimal Tm for the probe, and 70°C as the maximum Tm for the probe. These parameters can be relaxed to allow for smaller/larger oligos, which may be necessary for high GC
-or low GC targets. Oligo size should be no smaller than 13 and no larger than 30 nucleotides.
+**Tools for Primer and Probe Design**
 
-Of course, in order to get to primer design, you will need to find the gene locus sequence that you’d like to detect! One way to do that is to browse genome sequence repositories, such as [NCBI]([https://www.ncbi.nlm.nih.gov/](https://www.ncbi.nlm.nih.gov/)) and more specifically [NCBI Genome Browser]([https://www.ncbi.nlm.nih.gov/gdv/?org=homo-sapiens](https://www.ncbi.nlm.nih.gov/gdv/?org=homo-sapiens)).
+The most well-known online tool for primer sequence development is [Primer3Plus](<https://www.primer3plus.com/index.html>). Paste your target locus sequence, set optimal amplicon sizes (60–200 bp; the shorter the amplicon - the better the reaction efficiency), and ensure:
 
-If you’ve set your eyes on a ddPCR assay with EvaGreen, then that’s essentially it. Upon ordering your primers, make sure you order the correct supermix and keep in mind to optimize your ddPCR assays (mainly in the form of a thermal gradient to ensure maximum specificity and efficiency) before using them on actual *Unknown* samples.
+    - Primer Tm ≤ 65°C
+    - GC content: 40–60%
+    - Avoid excessive G/C repeats.
 
-If you would like a probe to accompany your primer set, [Primer3Plus]([https://www.primer3plus.com/index.html](https://www.primer3plus.com/index.html)) can generate probe (or internal oligo) sequences that are flanked by both the forward and reverse primers. These can work pretty well assuming you follow these [Bio-Rad-issued guidelines]([https://www.bio-rad.com/webroot/web/pdf/lsr/literature/Bulletin_6407.pdf](https://www.bio-rad.com/webroot/web/pdf/lsr/literature/Bulletin_6407.pdf)):
+Recommended Primer3Plus Settings:
 
-1. The **Tm of a hydrolysis probe** should be **3–10°C higher** **than** that of the **primers**
-2. Choose a sequence within the target that has a **GC content of 30–80%**, and design the probe
-to anneal to the strand that has more Gs than Cs (so the **probe contains more Cs than Gs**)
-3. The **probe should be <30 nucleotides** long because distance between fluorophore
-and quencher affects baseline signal intensity. Longer probes or Tm enhancers are
-recommended if needed to achieve the required Tm. I would recommend shorter probes that still satisfy the 1. and 2. points above.
-4. Probes should **not have a G at the 5' end** because this quenches the fluorescence
-signal even after hydrolysis
-5. For use with Bio-Rad systems, probes should be labelled (on the 5’ end) with the compatible fluorophores (FAM, HEX/VIC = QX200 or FAM, HEX/VIC, Cy5, Cy5.5, ROX and ATTO 590) and (on the 3’ end) with a compatible quencher (typically IOWA BLACK Dark Quencher)
+    General Settings:
+        - “Concentration of divalent cations” = 3.8 mM
+        - “Concentration of dNTPs” = 0.8 mM
+        - “Mispriming/Repeat Library” = your organism of interest.
+    Advanced Settings:
+        - “Thermodynamic parameters” and “Salt correction formula” = SantaLucia 1998.
 
-Once, your primer and probe sequences are designed and you made sure to follow the guidelines I have laid out, you can double check that the primers and the probe (individually) do not form self-annealing structures. You can do this with a very simple and user friendly online tool called [PCR Primer Stats]([https://www.bioinformatics.org/sms2/pcr_primer_stats.html](https://www.bioinformatics.org/sms2/pcr_primer_stats.html)). All you have to do is paste in your *fasta* formatted primer and probe sequence and press **Submit**. Typically, what you would like to pay attention to is the possibility of **GC clamp, Self-annealing** and **Hairpin formation** structures**.** While a few self-annealing basepairs are not the end of the world in your primers (since temperatures of around 60 degrees dissolve self-annealing) all of these together can impact the efficiency (and thus the amount of “rain”) and specificity of your reactions and are best eliminated *in silico* while you have the chance.
+To start designing primers, you'll need the gene locus sequence. You can find it via genome repositories like [NCBI](<https://www.ncbi.nlm.nih.gov/>) and more specifically [NCBI Genome Browser](<https://www.ncbi.nlm.nih.gov/gdv/?org=homo-sapiens>)
 
-To determine the extent of primer-dimer formation due to the annealing of a forward primer to the reverse (and vice-versa), there is another tool that can be utilized: [Multiple Primer Analyzer]([https://www.thermofisher.com/se/en/home/brands/thermo-scientific/molecular-biology/molecular-biology-learning-center/molecular-biology-resource-library/thermo-scientific-web-tools/multiple-primer-analyzer.html](https://www.thermofisher.com/se/en/home/brands/thermo-scientific/molecular-biology/molecular-biology-learning-center/molecular-biology-resource-library/thermo-scientific-web-tools/multiple-primer-analyzer.html)). Here again the input is a *fasta* formatted file containing your primer (and potentially also probe) sequences. You can even adjust the oligo concentration, albeit one at a time (900 nM final for primers, 250 nM for probe) and Salt concentration (53.8 mM = 50 mM monovalent, 3.8 mM divalent). Upon input the page automatically updates and you are provided with, among other stats, Tms for each sequence (Good to make sure your primers and probes have at least 3-10 degree difference, but make sure to change the oligo concentration when comparing primers with probe) and way down below **Self-Dimers** which can pretty reliably identify if the forward and reverse primers are capable of annealing to one another (and how strong this expected self annealing is).
+**Primer Design for EvaGreen Assays**
 
-Alternatively, if you’d like skip over having to use multiple different tools and just use one to evaluate your primer and probe pairs for their suitability specifically on Bio-Rad’s QX droplet digital PCR platforms, i would suggest using [Bio-Rad’s Custom Assay Builder]([https://www.bio-rad.com/digital-assays/custom-assay-builder](https://www.bio-rad.com/digital-assays/custom-assay-builder)). With Custom Assay Builder, you simply choose the ddPCR platform, supermix and enter your primer and probe sequences. This, in turn, will generate a report on the conditions which your assay satisfies and which (if any) need to be altered in order to have a working assay.
+For EvaGreen assays, simply order primers and the correct supermix. Optimize your ddPCR assays (e.g., thermal gradient testing) to ensure specificity and efficiency before using them on *unknown* samples.
 
-Now specifically for SNP detection, you might want to design two probes - one to detect a wild type sequence (eg. AGG) and one to detect the mutated sequence (eg. ACG). In order to minimize the background signal, you may want to develop probes that bind very specifically to their intended templates (wild-type probe to wild-type template and mutant probe to mutant template) and less specifically to those they are not meant to (that is you may want to ensure little to no cross-reactivity between the probes and the different template types). In order to check the unspecific binding of your probe(s) and determine the melting temperature differences between them, you can use a very nice tool called [Oligo Analyzer]([https://www.idtdna.com/calc/analyzer](https://www.idtdna.com/calc/analyzer)). In this tool, you can input your probe sequences (one at a time - let’s start with wild-type probe first), adjust oligo (0,25 uM), Na+ (50 mM), Mg++(3,8 mM) and dNTP (0.8 mM) concentrations and then click on **TM MISMATCH** (to the right). After that, scroll down to the bottom. Notice that you can change the nucletotide of the sequence (in blue) to which your probe sequence is shown to be perfectly annealed to. Introduce a mismatch of your choosing and click on **CALCULATE** at the bottom. Now you will see that the page has been updated once again and the Melting Temperatures are displayed for both the annealing of your probe to the proper template (it’s designed to anneal to) and to the one containing the mismatch. Ideally the delta Tm parameter is at least a couple of degrees. Below that table you will find another very useful table called Percent Bound At X ºC. This table shows you the % of the indicated probe molecules bound to the two types of template molecules (wild-type and with the mismatch/SNP). Use this information to maximize the delta Tm of each probe (you will have to repeat this analysis but with the other probe) to make sure that your probes are as specific as possible under the circumstances. In order to ensure the maximum impact of the mismatch on the delta Tm(s), make sure the SNP locus is located at the center of the probe sequence.
+**Probe Design for Multiplexing**
 
-Having followed all the above indicated guidelines, you will be able to ensure that you have started with the most optimal primer and probe pairs. The next step is to test them *in vitro*, in the lab!
+If using probes, [Primer3Plus](<https://www.primer3plus.com/index.html>) can generate probe sequences flanked by forward and reverse primers. Make sure to modify the following settings first:
+
+Recommended Primer3Plus Settings:
+
+    Internal Oligo:
+        - Set the oligo minimum to 15 bases.
+        - Minimum probe Tm = 64°C, optimal Tm = 65°C, maximum Tm = 70°C (relax for high/low GC targets).
+        - Oligo size: 13–30 nucleotides.
+
+Also make sure to adhere to these [Bio-Rad-issued guidelines](<https://www.bio-rad.com/webroot/web/pdf/lsr/literature/Bulletin_6407.pdf>):
+
+    - Probe Tm should be 3–10°C higher than primers.
+    - GC content: 30–80%. Design probes to favor Cs over Gs.
+    - Length: <30 nucleotides (longer probes or Tm enhancers are
+    recommended if to achieve the required Tm. I would recommend shorter probes that still satisfy the 1. and 2. points above).
+    - Avoid G at the 5’ end (quenches fluorescence).
+    - Label probes with compatible fluorophores (e.g., FAM, HEX/VIC = QX200 or FAM, HEX/VIC, Cy5, Cy5.5, ROX and ATTO 590 = QX600) and quenchers (e.g., IOWA BLACK).
+
+
+**Validating Primer and Probe Sequences**
+
+1. Self-Annealing and Structural Issues:
+
+Use [PCR Primer Stats](<https://www.bioinformatics.org/sms2/pcr_primer_stats.html>) to identify:
+
+- GC clamps
+- Self-annealing
+- Hairpin formation
+
+A few self-annealing base pairs are manageable, but excessive structures can reduce reaction efficiency.
+
+2. Primer-Dimer Analysis:
+
+Check forward-reverse primer interactions using [Multiple Primer Analyzer](<https://www.thermofisher.com/se/en/home/brands/thermo-scientific/molecular-biology/molecular-biology-learning-center/molecular-biology-resource-library/thermo-scientific-web-tools/multiple-primer-analyzer.html>). Input your sequences in fasta format and adjust:
+
+    - Primer concentration: 900 nM.
+    - Probe concentration: 250 nM.
+    - Salt concentration: 53.8 mM (50 mM monovalent, 3.8 mM divalent).
+
+This tool provides Tms, self-dimer stats, and other crucial metrics. Ensure primer Tms differ from probes by 3–10°C.
+
+3. SNP Detection Probes Check-up:
+
+For SNP assays, design two probes—one for wild type (e.g., AGG) and another for the mutant (e.g., ACG). Minimize cross-reactivity using [Oligo Analyzer](<https://www.idtdna.com/calc/analyzer>):
+
+  - Input probe sequences individually.
+  - Adjust oligo (0.25 μM), Na+ (50 mM), Mg++ (3.8 mM), and dNTP (0.8 mM) concentrations.
+  - Click on **TM MISMATCH** (to the right)
+  - Scroll down to the bottom, introduce a mismatch of your choosing in the probe sequence and click on **CALCULATE** at the bottom
+  - Use Tm mismatches to evaluate the binding specificity of your probes and calculate the delta Tm between them (ideal: ≥2°C).
+
+Place the SNP locus centrally in the probe sequence to maximize the mismatch's effect.
+
+**Bio-Rad Custom Assay Builder**
+
+Simplify evaluations with [Bio-Rad’s Custom Assay Builder](<https://www.bio-rad.com/digital-assays/custom-assay-builder>). Enter your ddPCR platform, supermix, and sequences to receive a suitability report with optimization recommendations.
+
+**Final Steps**
+
+Once designed, ensure your primers and probes:
+
+  - Follow recommended guidelines.
+  - Have minimal structural issues (in silico).
+
+Test them in vitro for final validation. This ensures optimal performance before applying them to *unknown* samples.

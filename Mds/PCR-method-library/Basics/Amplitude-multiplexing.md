@@ -5,6 +5,7 @@ parent: Basics
 nav_order: 1
 has_children: true
 ---
+# Amplitude multiplexing
 
 **Amplitude multiplexing** is a Bio-Rad’s droplet digital PCR strategy that leverages a single fluorophore to detect multiple targets by varying the concentrations of the primers and probes or the sizes of the amplicons (EvaGreen). This approach allows to distinguish between different targets based on the fluorescence intensity, which correlates with the final concentration of the primer-probe(s) or amplicon length generated and present in each droplet. By designing assays with distinct primer-probe concentrations or amplicon lengths, multiple droplet clusters can be generated that emit varying fluorescence levels, effectively creating a "multiplex" environment despite using the same dye. A variant of amplitude multiplexing - diagonal multiplexing - is a yet another strategy and can be utilized to multiplex targets along the diagonal, by shifting the clusters to the right (if already using a FAM probe). This shifting of the FAM cluster to the right is achieved by simply spiking in the same probe sequence but labelled with a HEX fluorophore instead. Thus, the ratio of FAM:HEX labelled probe will uniquely determine the position of the generated cluster and can further enhance the multiplexing potential.
 

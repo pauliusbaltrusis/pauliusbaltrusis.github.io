@@ -1,6 +1,13 @@
-# Establishing Limit of Blank/Detection/Quantification for your assay
+---
+layout: default
+title: Establishing Limit of Blank/Detection/Quantification for your assay
+parent: Optimization
+nav_order: 2
+has_children: true
+---
 
-Owner: Paulius Baltrušis
+
+# Establishing Limit of Blank/Detection/Quantification for your assay
 
 To ensure the robustness and reliability of your ddPCR assay, it is critical to define and validate key analytical parameters, such as the **Limit of Blank (LoB)**, **Limit of Detection (LoD)**, and **Limit of Quantification (LoQ)**. These metrics are foundational for accurate assay interpretation, particularly in applications such as rare mutation detection, pathogen quantification, or low-abundance target analysis.
 
@@ -36,12 +43,11 @@ Where:
 
 For the **LoQ**, you can do this:
 
-1. The LoQ can range from being equivalent to the LoD to a much higher concentration value but is never lower than the LoD. Using the previous dilution experiment to establish the LoD, you can identify the concentration at which the precision, typically expressed as CV*, is equal or below to a predetermined value - e.g., 20%. 
+1. The LoQ can range from being equivalent to the LoD to a much higher concentration value but is never lower than the LoD. Using the previous dilution experiment to establish the LoD, you can identify the concentration at which the precision, typically expressed as CV*, is equal or below to a predetermined value - e.g., 20%.
 
 *CV is calculated (for each dilution) by dividing the standard deviation by the mean concentration of the target sequence in your replicates. For example, let’s imagine that for dilution X, you consistently get around 10 copies/ul of the target sequence. Your standard deviation is 0.4 copies/ul. Then, CV (%) = (0.4/10) * 100% = 4 %.
 
-The image below summarizes the differences between **LoB**, **LoD** and **LoQ** and what each of these parameters represent. For more info, you can also refer to this [Bio-Rad Bulletin 7183 Ver A]([https://dna.uga.edu/wp-content/uploads/sites/51/2021/03/Droplet-Digital-PCR-Guide.pdf](https://dna.uga.edu/wp-content/uploads/sites/51/2021/03/Droplet-Digital-PCR-Guide.pdf)).
+The image below summarizes the differences between **LoB**, **LoD** and **LoQ** and what each of these parameters represent. For more info, you can also refer to this [Bio-Rad Bulletin 7183 Ver A](<https://dna.uga.edu/wp-content/uploads/sites/51/2021/03/Droplet-Digital-PCR-Guide.pdf>).
 
-![image.png](Establishing%20Limit%20of%20Blank%20Detection%20Quantificati%201511bbe397bb80a2b777dddc7d4984c8/image.png)
-
-source: [Bio-Rad Bulletin 3674]([https://www.bio-rad.com/sites/default/files/2024-08/Bulletin_3674.pdf](https://www.bio-rad.com/sites/default/files/2024-08/Bulletin_3674.pdf))
+![image.png](Establishing%20Limit%20of%20Blank%20Detection%20Quantification/image.png)
+source: [Bio-Rad Bulletin 3674](<https://www.bio-rad.com/sites/default/files/2024-08/Bulletin_3674.pdf>)
