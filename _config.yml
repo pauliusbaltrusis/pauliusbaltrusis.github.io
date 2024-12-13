@@ -3,7 +3,6 @@ description: This is where different PCR methods are collected and described!
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
-baseurl: "/PCRrepo"
 #logo: "/assets/images/web.png"
 aux_links:
   Home: https://pauliusbaltrusis.github.io/
