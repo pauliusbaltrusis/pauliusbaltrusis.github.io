@@ -1,6 +1,13 @@
-# Drop-off probes
+---
+layout: default
+title: Drop-off Probes
+parent: DNA-based ddPCR Methods
+has_children: true
+nav_order: 1
+---
 
-Owner: Paulius Baltrušis
+# Drop-off Probes
+
 
 When working with SNPs or precise genome editing methods like homology-directed repair (HDR), using multiple probes can be advantageous. One probe is designed to target the wild-type sequence, while another targets the mutant sequence (see part A in the image below).
 
@@ -25,8 +32,7 @@ This setup is particularly useful in applications like:
 - Detecting allelic dropout, where one allele undergoes a mutation while the other remains intact.
 - Gene editing experiments where two distinct outcomes are possible, and the assay discriminates between them in a single reaction.
 
-In the example below, you can see a visualization of a typical mutation detection assay (A), a single drop-off assay with a drop-off or a “reporter” probe (B) and double drop-off assay for simultaneous detection of two mutually exclusive mutations (C). 
+In the example below, you can see a visualization of a typical a single drop-off assay with a drop-off probe and double drop-off assay for simultaneous detection of two mutually exclusive mutations.
 
-![1-s2.0-S1525157821001227-gr1.jpg](Drop-off%20probes%201261bbe397bb81c1ad40e47c89c2e9a8/1-s2.0-S1525157821001227-gr1.jpg)
-
-*source:[Rausch et al., 2021](*[https://linkinghub.elsevier.com/retrieve/pii/S1525-1578(21)00122-7](https://linkinghub.elsevier.com/retrieve/pii/S1525-1578(21)00122-7)*).*
+![DDoff.png](Drop-off%20probes/DDoff.png)
+*Single Drop-off assay vs Double Drop-off assay*

@@ -1,8 +1,14 @@
+---
+layout: default
+title: SuperRCA
+parent: Isothermal Amplification Methods
+has_children: true
+nav_order: 4
+---
+
 # SuperRCA
 
-Owner: Paulius Baltrušis
-
-SuperRCA (Super Rolling Circle Amplification) is an advanced variation of the rolling circle amplification (RCA) technique, designed for ultra-sensitive and specific molecular detection. This method was first described by [Chen et al., 2022]([https://www.nature.com/articles/s41467-022-31397-y](https://www.nature.com/articles/s41467-022-31397-y)) and has demonstrated capability in detecting single-nucleotide variants (SNVs), even in the presence of a 100,000-fold excess of normal/wild-type (wt) DNA.
+SuperRCA (Super Rolling Circle Amplification) is an advanced variation of the rolling circle amplification (RCA) technique, designed for ultra-sensitive and specific molecular detection. This method was first described by [Chen et al., 2022](<https://www.nature.com/articles/s41467-022-31397-y>) and has demonstrated capability in detecting single-nucleotide variants (SNVs), even in the presence of a 100,000-fold excess of normal/wild-type (wt) DNA.
 
 SuperRCA is carried out in six relatively simple but distinct steps:
 
@@ -13,8 +19,7 @@ SuperRCA is carried out in six relatively simple but distinct steps:
 5. **Second RCA Reaction and Signal Amplification**: The ligated padlock probes serve as templates for a second RCA reaction, further amplifying the regions of interest. Detection is achieved using molecular beacons that hybridize to the amplified loci, generating fluorescent signals.
 6. **Detection of SuperRCA Products**: The final SuperRCA products are large, concatemeric, fluorescent structures. These can be detected and quantified using standard flow cytometry or fluorescence imaging techniques, enabling high sensitivity and precision in distinguishing mutant molecules from wild-type DNA.
 
-![image.png](SuperRCA%2015a1bbe397bb80aeb7f9ddba829093f8/image.png)
-
-*source: Figure 1 [Chen et al., 2022]([https://www.nature.com/articles/s41467-022-31397-y](https://www.nature.com/articles/s41467-022-31397-y))*
+![image.png](SuperRCA/image.png)
+*source: Figure 1 [Chen et al., 2022](<https://www.nature.com/articles/s41467-022-31397-y>)*
 
 This highly sensitive method is a significant advancement in molecular diagnostics, offering robust detection of low-abundance mutations within complex DNA backgrounds.

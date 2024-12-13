@@ -1,6 +1,12 @@
-# Scorpion Probes
+---
+layout: default
+title: Scorpion Probes
+parent: qPCR
+nav_order: 2
+has_children: true
+---
 
-Owner: Paulius Baltrušis
+# Scorpion Probes
 
 The scorpion probe is a uniquely designed molecule that combines both the primer and probe into a single structure. Structurally, it resembles a molecular beacon due to its internal loop (or hairpin) configuration, where a fluorophore and quencher are positioned adjacent to each other at opposite ends of the sequence. The unstructured portion of the scorpion probe contains the primer sequence, which initiates the PCR process.
 
@@ -11,8 +17,7 @@ A typical qPCR reaction using scorpion probes involves two key steps:
 
 Scorpion probes are known for producing highly intense fluorescence signals due to their intramolecular detection mechanism, which is generally more efficient than the intermolecular interactions utilized by other probes, such as TaqMan probes or molecular beacons. However, designing scorpion probes can be challenging due to their complex and less flexible structure.
 
-The first study describing the use of scorpion probes was published by [Whitcombe et al., 1999]([https://www.nature.com/articles/nbt0899_804](https://www.nature.com/articles/nbt0899_804))
+The first study describing the use of scorpion probes was published by [Whitcombe et al., 1999](<https://www.nature.com/articles/nbt0899_804>)
 
-![Scorpion pr.png](Scorpion%20Probes%201591bbe397bb807e9b1ff611d9d3687b/Scorpion_pr.png)
-
+![Scorpion pr.png](Scorpion%20Probes/Scorpion_pr.png)
 *An example of a scorpion probe cycling between inactive (during extension) and active (when hybridized to the nascent strand) states and ultimately being used to detect the target sequence*

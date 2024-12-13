@@ -1,8 +1,10 @@
 ---
 layout: default
-title: qPCR
+title: qPCR methods
+has_children: true
 nav_order: 4
 ---
 
-# qPCR
-Content about qPCR goes here. But not for now :)
+# qPCR methods
+
+qPCR has been around for some 30 years and is a staple method used in every molecular biology lab around the world. With that in mind, in this chapter I will skip SYBR/EvaGreen and TaqMan probe based applications and review only the more rarely talked about, probe-type constructs for nucleic acid detection and quantification.

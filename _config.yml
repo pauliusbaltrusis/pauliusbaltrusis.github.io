@@ -22,6 +22,23 @@ nav:
       - General best practises for running ddPCR and multiplexing: /Mds/PCR-method-library/Optimization/General-best-practises-for-running-ddPCR-and-multiplexing
       - Locked-Nucleic Acids & Degenerate bases: /Mds/PCR-method-library/Optimization/Locked-Nucleic-Acids-and-Degenerate-bases
       - Singleplex Multiplex ddPCR Reaction Optimization: /Mds/PCR-method-library/Optimization/Singleplex-Multiplex-ddPCR-Reaction-Optimization
-    - DNA based methods: /DNA
-    - RNA and Proteins-based methods: /RNA
-  - qPCR: /qPCR
+    - DNA-based ddPCR Methods:
+      - Drop-off probes: /Mds/PCR-method-library/DNA-based methods/Drop-off-Probes
+      - Gene Linkage EHEC Example: /Mds/PCR-method-library/DNA-based methods/Gene-linkage-EHEC-example
+      - Linkage and Phasing: /Mds/PCR-method-library/DNA-based methods/Linkage-and-Phasing
+      - Long Amplicon (LA) ddPCR: /Mds/PCR-method-library/DNA-based methods/Long-Amplicon-(LA)-ddPCR
+      - Methylation: /Mds/PCR-method-library/DNA-based methods/Methylation
+      - Mutant Enrichment via Blocker Displacement Amplification: /Mds/PCR-method-library/DNA-based methods/Mutant-Enrichment-Blocker-Displacement-Amplification
+      - Mutation Detection with Amplitude Multiplexing: /Mds/PCR-method-library/DNA-based methods/Mutation-Detection-with-Amplitude-Multiplexing
+      - Simplified Multiplexing Strategies for Mutation Detection: /Mds/PCR-method-library/DNA-based methods/Simplified-Multiplexing-Strategies-for-Mutation-Detection
+      - Single-cell Vector Copy Number Variation Analyses: /Mds/PCR-method-library/DNA-based methods/Single-cell-Vector-Copy-Number-variation-analyses
+      - Structural Variants: /Mds/PCR-method-library/DNA-based methods/Structural-variants
+    - RNA and Protein-based methods:
+  - qPCR:
+    - Molecular Beacons: /Mds/PCR-method-library/qPCR/Molecular-Beacons
+    - Scorpion Probes: /Mds/PCR-method-library/qPCR/Scorpion-Probes
+  - Isothermal Amplification Methods:
+    - Hyperplex PCR: /Mds/PCR-method-library/Isothermal amplification methods/Hyperplex-PCR
+    - LAMP: /Mds/PCR-method-library/Isothermal amplification methods/LAMP
+    - RPA: /Mds/PCR-method-library/Isothermal amplification methods/RPA
+    - SuperRCA: /Mds/PCR-method-library/Isothermal amplification methods/SuperRCA

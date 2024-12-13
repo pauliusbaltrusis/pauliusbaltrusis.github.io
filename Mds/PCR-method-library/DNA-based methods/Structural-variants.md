@@ -1,14 +1,19 @@
-# Structural variants
+---
+layout: default
+title: Structural variants
+parent: DNA-based ddPCR Methods
+has_children: true
+nav_order: 10
+---
 
-Owner: Paulius Baltrušis
+# Structural variants
 
 Although most applications of droplet digital PCR (ddPCR) focus on detecting small genetic variations such as indels or single nucleotide polymorphisms (SNPs), the technology can also be adapted to detect and quantify large structural variations, including large excisions (up to hundreds of thousands of nucleotides) and inversions.
 
-The **ddXR** (droplet digital PCR eXcision Reporter) method, introduced by [Watry et al.,  2020]([https://www.nature.com/articles/s41598-020-71742-z](https://www.nature.com/articles/s41598-020-71742-z)), is a specialized ddPCR approach designed for the precise detection and quantification of large DNA excisions and inversions, particularly those induced by gene-editing technologies such as CRISPR-Cas9. This method works by targeting sequences flanking the edited region to determine the presence or absence of the intervening sequence, thereby identifying excision or inversion events. The schematic below provides an overview of the ddXR assay.
+The **ddXR** (droplet digital PCR eXcision Reporter) method, introduced by [Watry et al.,  2020](<https://www.nature.com/articles/s41598-020-71742-z>), is a specialized ddPCR approach designed for the precise detection and quantification of large DNA excisions and inversions, particularly those induced by gene-editing technologies such as CRISPR-Cas9. This method works by targeting sequences flanking the edited region to determine the presence or absence of the intervening sequence, thereby identifying excision or inversion events. The schematic below provides an overview of the ddXR assay.
 
-![Overview-of-ddXR-excision-and-inversion-quantification-methods-a-Schematic-of-ddXR.jpg](Structural%20variants%201261bbe397bb81e7a724e3a093f3fe8a/Overview-of-ddXR-excision-and-inversion-quantification-methods-a-Schematic-of-ddXR.jpg)
-
-*source: [Watry et al.,  2020]([https://www.nature.com/articles/s41598-020-71742-z](https://www.nature.com/articles/s41598-020-71742-z)*
+![Overview-of-ddXR-excision-and-inversion-quantification-methods-a-Schematic-of-ddXR.jpg](Structural%20variants/structural%20var.jpg)
+*source: [Watry et al.,  2020](<https://www.nature.com/articles/s41598-020-71742-z>)*
 
 This is how ddXR assays work:
 
