@@ -34,7 +34,7 @@ nav:
       - Single-cell Vector Copy Number Variation Analyses: /Mds/PCR-method-library/DNA-based-methods/Single-cell-Vector-Copy-Number-variation-analyses
       - Structural Variants: /Mds/PCR-method-library/DNA-based-methods/Structural-variants
     - RNA and Protein-based methods:
-  - qPCR:
+  - qPCR Methods:
     - Molecular Beacons: /Mds/PCR-method-library/qPCR/Molecular-Beacons
     - Scorpion Probes: /Mds/PCR-method-library/qPCR/Scorpion-Probes
   - Isothermal Amplification Methods:
