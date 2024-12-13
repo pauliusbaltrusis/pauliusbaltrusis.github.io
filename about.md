@@ -6,4 +6,5 @@ has_children: true
 ---
 
 # About
-Click on [About me](https://pauliusbaltrusis.github.io/aboutme.html) if you would like to get to know more about the creator of this webpage or [About this website](https://pauliusbaltrusis.github.io/abouthiswebsite.html) if you'd like to know what the purpose behind this website is.
+
+Although publicly available, this is my **personal** PCR method repository and as such it is not intended for any commercial/advertising use but rather as a dynamic library of publications detailing various cool molecular biology applications. Let me know if something is out of place or incorrect by reaching out via email: [<pauliusbaltrusis@gmail.com>] or [LinkedIn/pauliusbaltrusis](https://www.linkedin.com/in/paulius-baltrusis/)

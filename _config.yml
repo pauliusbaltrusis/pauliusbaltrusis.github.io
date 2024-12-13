@@ -8,9 +8,7 @@ aux_links:
   Home: https://pauliusbaltrusis.github.io/
 nav:
   - Home: /
-  - About:
-      - About me: /aboutme
-      - About this website: /abouthiswebsite
+  - About: /about
   - ddPCR:
     - Basics:
       - Amplitude multiplexing: /Mds/PCR-method-library/Basics/Amplitude-multiplexing

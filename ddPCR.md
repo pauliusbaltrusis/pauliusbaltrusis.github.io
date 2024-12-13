@@ -6,4 +6,4 @@ has_children: true
 ---
 
 # ddPCR
-Main page for the "ddPCR" section.
+This is where you'll find guides, relevant papers and more - all related to ddPCR: From primer and probe creation to assay designs and applications!
