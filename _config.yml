@@ -5,9 +5,9 @@ theme: just-the-docs
 url: https://just-the-docs.github.io
 #logo: "/assets/images/web.png"
 aux_links:
-  Home: https://pauliusbaltrusis.github.io/
+  Home: https://pauliusbaltrusis.github.io/PCR
 nav:
-  - Home: /
+  - Home: /PCR
   - About: /about
   - ddPCR:
     - Basics:
