@@ -12,13 +12,13 @@ nav:
       - About me: /aboutme
       - About this website: /abouthiswebsite
   - ddPCR:
-    - Basics: /Basics
+    - Basics:
       - Amplitude multiplexing: /Mds/PCR-method-library/Basics/Amplitude-multiplexing
       - Basics of quantification and digital PCR assay design: /Mds/PCR-method-library/Basics/Basics-of-quantification-and-digital-PCR-assay-design
       - Control sample types in ddPCR: /Mds/PCR-method-library/Basics/Control-sample-types-in-ddPCR
       - Most common sample types in ddPCR: /Mds/PCR-method-library/Basics/Most-common-sample-types-in-ddPCR
       - Primer and Probe design: /Mds/PCR-method-library/Basics/Primer-and-Probe-design
-    - Optimization: /Optimization
+    - Optimization:
       - Dark probes: /Mds/PCR-method-library/Optimization/Dark-probes
       - Establishing Limit of Blank Detection Quantification: /Mds/PCR-method-library/Optimization/Establishing-Limit-of-Blank-Detection-Quantification
       - General best practises for running ddPCR and multiplexing: /Mds/PCR-method-library/Optimization/General-best-practises-for-running-ddPCR-and-multiplexing
