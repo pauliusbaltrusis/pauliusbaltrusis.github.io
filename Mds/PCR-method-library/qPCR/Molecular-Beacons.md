@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Molecular Beacons
-parent: qPCR
-nav_order: 1
+parent: qPCR Methods
 has_children: true
+nav_order: 1
 ---
 
 # Molecular Beacons

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Scorpion Probes
-parent: qPCR
-nav_order: 2
+parent: qPCR Methods
 has_children: true
+nav_order: 2
 ---
 
 # Scorpion Probes
