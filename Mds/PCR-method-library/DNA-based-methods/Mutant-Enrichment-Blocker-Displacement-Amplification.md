@@ -16,7 +16,8 @@ The key innovation of BDA is its ability to selectively amplify mutant sequences
 
 The BDA technique was not only shown to detect rare variants with high sensitivity and be temperature robust but also have the capacity to be multiplexed and thus detect multiple variants at the same time, at several loci in the genome.
 
-See the image below for a general overview of the BDA approach to wild-type amplification suppression (a) and mutant/variant sequence enrichment (b).
+See the image below for a general overview of the BDA approach to wild-type amplification suppression (left) and mutant/variant sequence enrichment (right).
 
-![F1.large.jpg](Mutant%20enrichment%20Blocker%20Displacement%20Amplificati/F1.large.jpg)
-*source: [Wu et al., 2017](<https://www.nature.com/articles/s41551-017-0126-5>)*
+![BDA.png](Mutant%20enrichment%20Blocker%20Displacement%20Amplificati/BDA.png)
+
+*BDA mediated suppresion of WT template amplification and MT template amplification enrichment*

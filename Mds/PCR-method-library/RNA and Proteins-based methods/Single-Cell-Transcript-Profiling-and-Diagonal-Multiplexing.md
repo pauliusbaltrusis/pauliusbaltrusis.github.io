@@ -1,14 +1,20 @@
+---
+layout: default
+title: Single-Cell Transcript Profiling & Diagonal Multiplexing
+parent: RNA and Protein-based methods
+has_children: true
+nav_order: 7
+---
+
 # Single-Cell Transcript Profiling & Diagonal Multiplexing
 
-Owner: Paulius Baltrušis
 
-A poster by [**Claudia Litterst et al., (2014)]**(found here:[https://www.bioradiations.com/wp-content/uploads/2015/05/rapid-and-ultra-sensitive-single-cell-transcript-profiling-with-droplet-digital-pcr-ddpcr-application-to-neuronal-differentiation.pdf](https://www.bioradiations.com/wp-content/uploads/2015/05/rapid-and-ultra-sensitive-single-cell-transcript-profiling-with-droplet-digital-pcr-ddpcr-application-to-neuronal-differentiation.pdf)) outlines a highly efficient workflow for **single-cell transcript quantification** using droplet digital PCR (ddPCR). This method is particularly advantageous for mRNA biologists aiming to quantify transcripts without the need for pre-amplification of cDNA.
+A poster by [Claudia Litterst et al., 2014](<https://www.bioradiations.com/wp-content/uploads/2015/05/rapid-and-ultra-sensitive-single-cell-transcript-profiling-with-droplet-digital-pcr-ddpcr-application-to-neuronal-differentiation.pdf>) outlines a highly efficient workflow for **single-cell transcript quantification** using droplet digital PCR (ddPCR). This method is particularly advantageous for mRNA biologists aiming to quantify transcripts without the need for pre-amplification of cDNA.
 
-![image.png](Single-Cell%20Transcript%20Profiling%20&%20Diagonal%20Multip%201261bbe397bb81729777d3a28546a772/image.png)
+![image.png](Single-Cell%20Transcript%20Profiling%20&%20Diagonal%20Multiplexing/image.png)
 
-*source:[**Claudia Litterst et al., (2014)]**(found here:[https://www.bioradiations.com/wp-content/uploads/2015/05/rapid-and-ultra-sensitive-single-cell-transcript-profiling-with-droplet-digital-pcr-ddpcr-application-to-neuronal-differentiation.pdf](https://www.bioradiations.com/wp-content/uploads/2015/05/rapid-and-ultra-sensitive-single-cell-transcript-profiling-with-droplet-digital-pcr-ddpcr-application-to-neuronal-differentiation.pdf))*
+*source:[Claudia Litterst et al., 2014](<https://www.bioradiations.com/wp-content/uploads/2015/05/rapid-and-ultra-sensitive-single-cell-transcript-profiling-with-droplet-digital-pcr-ddpcr-application-to-neuronal-differentiation.pdf>)*
 
----
 
 **Workflow Summary**
 
@@ -23,11 +29,10 @@ A poster by [**Claudia Litterst et al., (2014)]**(found here:[https://www.biorad
 
 Most importantly, the method bypasses cDNA pre-amplification, reducing bias and preserving the original transcript ratios.
 
----
 
 **Key Feature: Diagonal Multiplexing**
 
-The study introduces a clever amplitude-based multiplexing strategy called diagonal multiplexing. This method involves:
+The study introduces a clever amplitude-based multiplexing strategy called **diagonal multiplexing**. This method involves:
 
 1. **ddPCR Assays:**
     - Two identical assays were designed for each target, differing only in the fluorescent labels on the probes:
@@ -39,7 +44,8 @@ The study introduces a clever amplitude-based multiplexing strategy called diago
 3. **2D Clustering:**
     - By leveraging the 2D space (X = channel 1, Y = channel 2), the method allows each target to form a distinct cluster on the plot.
 
-### **Probe Ratio Table**
+**Probe Ratio Table**
+*The table shows the mixing ratios of FAM and HEX probes used in order to generate distinct clusters on the diagonal. 5 targets were detected in each 5plex reaction by reducing the concentration of the FAM (%) probe (100%->75->50->25->0) while simultaneously increasing the concentration of the HEX (%) probe (0->25->50-75->100%)*
 
 | **Gene** | **FAM (%)** | **HEX (%)** | **Assay Volume (µL)** |
 | --- | --- | --- | --- |
@@ -49,14 +55,12 @@ The study introduces a clever amplitude-based multiplexing strategy called diago
 | 4, 9 | 25 | 75 | 1.0 |
 | 5, 10 | 0 | 100 | 1.5 |
 
----
 
-### **Results and Interpretation**
+**Results and Interpretation**
 
-The culmination of this approach is the generation of a **2D plot**, where each of the 10 targets is detected and visualized as a distinct cluster. By running the same sample across two wells on the QX200 ddPCR system, researchers can confidently quantify all 10 targets with high precision.
+The culmination of this approach is the generation of a 2D plot, where each of the 10 targets is detected and visualized as a distinct cluster. By running the same sample across two wells on the QX200 ddPCR system, researchers can confidently quantify all 10 targets with high precision.
 
-This workflow represents a significant advancement in single-cell transcript profiling, offering a robust and ultra-sensitive method for **multiplexed transcript detection** without introducing amplification biases.
+This workflow represents a significant advancement in single-cell transcript profiling, offering a robust and ultra-sensitive method for multiplexed transcript detection without introducing amplification biases.
 
-![diagonal.png](Single-Cell%20Transcript%20Profiling%20&%20Diagonal%20Multip%201261bbe397bb81729777d3a28546a772/diagonal.png)
-
+![diagonal.png](Single-Cell%20Transcript%20Profiling%20&%20Diagonal%20Multiplexing/diagonal.png)
 *A simplified visual representation of the different target-containing droplet clusters detected (5 +5) in the 5plex 1 & 2 duplicates and their unique distributions between the 2 (FAM & HEX) channels.*
