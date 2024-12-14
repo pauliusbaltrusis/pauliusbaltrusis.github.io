@@ -31,4 +31,4 @@ Examples below showcase amplitude multiplexing for:
 
 Thus by adjusting primer-probe concentrations, amplicon lengths (if working with EvaGreen) or spiking in a fraction of your probe labelled with a different fluorophore (e.g., HEX) one can multiplex and detect multiple target sequences either within the same channel or in between the two channels.
 
-To find out more about how to optimize such assays, check out [Optimization](../Optimization.html).
+To find out more about how to optimize such assays, check out [Optimization](/Optimization.html).
