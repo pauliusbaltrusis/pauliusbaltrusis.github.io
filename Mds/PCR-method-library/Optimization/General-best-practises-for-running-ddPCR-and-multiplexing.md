@@ -9,7 +9,7 @@ has_children: true
 # General best practises for running ddPCR and multiplexing
 
 
-**Multiplexing** in droplet digital PCR (ddPCR) allows you to simultaneously detect multiple targets in a single reaction, saving time and reagents while increasing throughput. However, successful multiplexing requires careful optimization, as it introduces complexities in primer/probe design and reaction conditions. The more in-depth guide to which experiments you should consider running after just having received your primers and probes you’ll find in [Optimization: Singleplex Multiplex ddPCR Reaction Optimization](/Mds/PCR-method-library/Optimization/Singleplex-Multiplex-ddPCR-Reaction-Optimization.md). Here’s just a few major points to consider when planning to run multiplex ddPCR experiments:
+**Multiplexing** in droplet digital PCR (ddPCR) allows you to simultaneously detect multiple targets in a single reaction, saving time and reagents while increasing throughput. However, successful multiplexing requires careful optimization, as it introduces complexities in primer/probe design and reaction conditions. The more in-depth guide to which experiments you should consider running after just having received your primers and probes you’ll find in [Optimization: Singleplex Multiplex ddPCR Reaction Optimization](/Mds/PCR-method-library/Optimization/Singleplex-Multiplex-ddPCR-Reaction-Optimization.html). Here’s just a few major points to consider when planning to run multiplex ddPCR experiments:
 
 **Primer and Probe Design**
 

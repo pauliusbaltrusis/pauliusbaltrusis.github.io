@@ -37,6 +37,7 @@ The process involves lysing cells from a sample to produce a rough lysate contai
 Average Transcripts per Gene Copy=(RT+ copies - RT- copies)/RT- copies
 
 ![image.png](Selfie-dPCR/image.png)
+
 *source: [Podlesniy and Trullas, 2017](<https://www.nature.com/articles/s41598-017-08270-w>)*
 
 

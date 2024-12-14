@@ -16,21 +16,19 @@ Examples below showcase amplitude multiplexing for:
 1. Gene target detection & quantification:
 
 ![19-0670-figure1.jpg](Amplitude%20multiplexing/19-0670-figure1.jpg)
-
-source: [Bio-Rad](<https://www.youtube.com/watch?v=OOAcTme9-WM&ab_channel=Bio-RadLaboratories](https://www.youtube.com/watch?v=OOAcTme9-WM&ab_channel=Bio-RadLaboratories>)
+*source: [Bio-Rad](<https://www.youtube.com/watch?v=OOAcTme9-WM&ab_channel=Bio-RadLaboratories](https://www.youtube.com/watch?v=OOAcTme9-WM&ab_channel=Bio-RadLaboratories>)*
 
 1. Multiplex detection of multiple *KRAS* mutations in the same channel:
 
 ![image.png](Amplitude%20multiplexing/image.png)
-
-source: [Hussung et al., 2020](<https://www.jmdjournal.org/article/S1525-1578(20)30300-7/fulltext>)
+*source: [Hussung et al., 2020](<https://www.jmdjournal.org/article/S1525-1578(20)30300-7/fulltext>)*
 
 1. Multiplex detection of multiple *PIK3CA* mutations via amplitude multiplexing and diagonal multiplexing (i.e. detection of a target in between the two channels):
 
 ![image.png](Amplitude%20multiplexing/image%201.png)
 
-source: [Rowlands et al., 2019](<https://www.nature.com/articles/s41598-019-49043-x>)
+*source: [Rowlands et al., 2019](<https://www.nature.com/articles/s41598-019-49043-x>)*
 
 Thus by adjusting primer-probe concentrations, amplicon lengths (if working with EvaGreen) or spiking in a fraction of your probe labelled with a different fluorophore (e.g., HEX) one can multiplex and detect multiple target sequences either within the same channel or in between the two channels.
 
-To find out more about how to optimize such assays, check out [Optimization]().
+To find out more about how to optimize such assays, check out [Optimization](../Optimization.html).

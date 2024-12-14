@@ -28,4 +28,4 @@ Both strategies enable efficient screening for mutations in a hotspot without th
     ![simplified multiplex.png](Simplified%20Multiplexing%20Strategies%20for%20Mutation%20De/simplified_multiplex.png)
     *Multiple SNP detection with FAM(only)-labelled probes vs a universal Drop-off probe*
 
-These methods are ideal for identifying the presence of *any* mutation in a hotspot when the specific identity of the mutation is less critical, such as in initial screening workflows. For a reference study, check out [Decraene et al., 2018](<https://pubmed.ncbi.nlm.nih.gov/29122835/>)
+These methods are ideal for identifying the presence of *any* mutation in a hotspot when the specific identity of the mutation is less critical, such as in initial screening workflows. For a reference study, check out [Decraene et al., 2018](<https://academic.oup.com/clinchem/article-abstract/64/2/317/5608881?redirectedFrom=fulltext&login=false>)

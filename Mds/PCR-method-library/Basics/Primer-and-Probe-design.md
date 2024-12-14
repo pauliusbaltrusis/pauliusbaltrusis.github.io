@@ -16,13 +16,13 @@ If you'd like to create a simple gene-target detection assay, you'll need:
 
 For singleplex detection (one target at a time), you can use a DNA intercalating dye like EvaGreen, where probes aren’t necessary, and primers alone suffice. However, for multiplexing, it’s recommended to develop primer-probe pairs from the outset.
 
-**Tools for Primer and Probe Design**
+**Tools for Primer and Probe Desgn**
 
 The most well-known online tool for primer sequence development is [Primer3Plus](<https://www.primer3plus.com/index.html>). Paste your target locus sequence, set optimal amplicon sizes (60–200 bp; the shorter the amplicon - the better the reaction efficiency), and ensure:
 
-    - Primer Tm ≤ 65°C
-    - GC content: 40–60%
-    - Avoid excessive G/C repeats.
+  - Primer Tm ≤ 65°C
+  - GC content: 40–60%
+  - Avoid excessive G/C repeats.
 
 Recommended Primer3Plus Settings:
 
@@ -52,12 +52,12 @@ Recommended Primer3Plus Settings:
 
 Also make sure to adhere to these [Bio-Rad-issued guidelines](<https://www.bio-rad.com/webroot/web/pdf/lsr/literature/Bulletin_6407.pdf>):
 
-    - Probe Tm should be 3–10°C higher than primers.
-    - GC content: 30–80%. Design probes to favor Cs over Gs.
-    - Length: <30 nucleotides (longer probes or Tm enhancers are
+  - Probe Tm should be 3–10°C higher than primers.
+  - GC content: 30–80%. Design probes to favor Cs over Gs.
+  - Length: <30 nucleotides (longer probes or Tm enhancers are
     recommended if to achieve the required Tm. I would recommend shorter probes that still satisfy the 1. and 2. points above).
-    - Avoid G at the 5’ end (quenches fluorescence).
-    - Label probes with compatible fluorophores (e.g., FAM, HEX/VIC = QX200 or FAM, HEX/VIC, Cy5, Cy5.5, ROX and ATTO 590 = QX600) and quenchers (e.g., IOWA BLACK).
+  - Avoid G at the 5’ end (quenches fluorescence).
+  - Label probes with compatible fluorophores (e.g., FAM, HEX/VIC = QX200 or FAM, HEX/VIC, Cy5, Cy5.5, ROX and ATTO 590 = QX600) and quenchers (e.g., IOWA BLACK).
 
 
 **Validating Primer and Probe Sequences**

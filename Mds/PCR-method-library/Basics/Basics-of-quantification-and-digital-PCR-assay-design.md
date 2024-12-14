@@ -48,5 +48,4 @@ Using the ratio of the number of negative partitions to all partitions, divided 
 See the image below for a simple summary.
 
 ![13071_2023_5756_Fig2_HTML.png](Basics%20of%20quantification%20&%20digital%20PCR%20assay%20design/13071_2023_5756_Fig2_HTML.png)
-
-source: [Baltrusis et al., 2023](<https://parasitesandvectors.biomedcentral.com/articles/10.1186/s13071-023-05756-7>)
+*source: [Baltrusis et al., 2023](<https://parasitesandvectors.biomedcentral.com/articles/10.1186/s13071-023-05756-7>), Figure 2*
