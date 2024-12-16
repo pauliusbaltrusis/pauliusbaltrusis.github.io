@@ -21,7 +21,7 @@ Before starting any optimization or experimental work, consider incorporating Lo
 1. Greater Tm differences between mutant and wild-type probes, reducing cross-reactivity.
 2. Shorter, more efficient probe designs.
 
-For a detailed description of LNAs, see the [Locked-Nucleic Acids section](/Mds/PCR-method-library/Optimization/Locked-Nucleic-Acids-and-Degenerate-bases.md).
+For a detailed description of LNAs, see the [Locked-Nucleic Acids section](/Mds/PCR-method-library/Optimization/Locked-Nucleic-Acids-and-Degenerate-bases.html).
 
 **Optimization Steps**
 
@@ -46,7 +46,7 @@ For a detailed description of LNAs, see the [Locked-Nucleic Acids section](/Mds/
     Assess sensitivity by:
 
     - Detecting a small number of target copies (e.g., 5) in increasing concentrations of background DNA (e.g., 0, 2000, 5000 copies).
-    - Performing a serial dilution of target DNA in a high background DNA context. Multiple replicates should be used to ensure consistent, robust results. For guidance on establishing Limits of Blank, Detection, and Quantification, see [Establishing Limit of Blank/Detection/Quantification for Your Assay](/Mds/PCR-method-library/Optimization/Establishing-Limit-of-Blank-Detection-Quantification.md).
+    - Performing a serial dilution of target DNA in a high background DNA context. Multiple replicates should be used to ensure consistent, robust results. For guidance on establishing Limits of Blank, Detection, and Quantification, see [Establishing Limit of Blank/Detection/Quantification for Your Assay](/Mds/PCR-method-library/Optimization/Establishing-Limit-of-Blank-Detection-Quantification.html).
 - **Carrier DNA Testing:** *(Optional)*
 
     If you plan to use carrier DNA (e.g., XenT), test for potential cross-reactivity between the assay and the carrier DNA.
@@ -99,7 +99,7 @@ Once the droplet clusters are optimally separated on a 2D plot:
 - **Test gBlock Pairs:**
 
     Finally, evaluate how multiple targets (e.g., two mutations) behave in a single well. Check the 2D plot for artifacts before analyzing clinical or experimental samples.
-    
+
 ---
 
 By following these guidelines and referring to the original publication, you can ensure your assays are well-optimized, producing reliable and robust results every time!
