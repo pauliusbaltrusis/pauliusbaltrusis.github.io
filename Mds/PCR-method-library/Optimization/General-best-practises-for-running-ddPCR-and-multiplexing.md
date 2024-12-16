@@ -33,7 +33,7 @@ Typically, the above 4 reaction conditions do not need to be tested (unless maki
 
 **Fluorescence Signal Separation**
 
-- **Optimize Signal Intensity**: Although not conventionally necessary, probe (and primer, for that matter) concentration(s) can be adjusted for each target. Start with around 250 nM for each probe (900 nM - each primer), and adjust if needed. Typically, probes are run at 250 nM, while primers - at 900 nM. These can be adjusted to increase the cluster separation (positive from negative), especially when performing [amplitude multiplexing](/Mds/PCR-method-library/Basics/Amplitude-multiplexing.md).
+- **Optimize Signal Intensity**: Although not conventionally necessary, probe (and primer, for that matter) concentration(s) can be adjusted for each target. Start with around 250 nM for each probe (900 nM - each primer), and adjust if needed. Typically, probes are run at 250 nM, while primers - at 900 nM. These can be adjusted to increase the cluster separation (positive from negative), especially when performing [amplitude multiplexing](/Mds/PCR-method-library/Basics/Amplitude-multiplexing.html).
 
 **Validation and Optimization**
 
@@ -42,7 +42,7 @@ Typically, the above 4 reaction conditions do not need to be tested (unless maki
 - **Check for Interference and Inhibition**: Run multiplex reactions with varying amounts of each target to test for competitive inhibition among targets. Spike-ins of different template types and amounts could be e.g. Template_1 100% + Template 2 10%/20%/40%/80%/100%. This may require iterative adjustments.
 - **Set Appropriate Thresholds**: ddPCR allows for digital quantification, so define clear thresholds based on singleplex data (and ideally by running both positive and negative controls) to identify positive and negative droplets in each channel.
 
-If you’d like a more in-depth guide to optimization, I have a created a short summary based on a paper by [Rowlands et al., 2019](<https://www.nature.com/articles/s41598-019-49043-x>) here: [Singleplex Multiplex ddPCR Reaction Optimization](/Mds/PCR-method-library/Optimization/Singleplex-Multiplex-ddPCR-Reaction-Optimization.md).
+If you’d like a more in-depth guide to optimization, I have a created a short summary based on a paper by [Rowlands et al., 2019](<https://www.nature.com/articles/s41598-019-49043-x>) here: [Singleplex/Multiplex ddPCR Reaction Optimization](/Mds/PCR-method-library/Optimization/Singleplex-Multiplex-ddPCR-Reaction-Optimization.html).
 
 **Analysis and Data Interpretation**
 

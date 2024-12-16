@@ -27,11 +27,11 @@ As shown in a study by [Hussung et al., 2020](<https://pubmed.ncbi.nlm.nih.gov/3
 [Rowlands et al., 2019](<https://www.nature.com/articles/s41598-019-49043-x>) demonstrated a novel approach using both FAM and HEX channels for mutation detection. For instance, the *PIK3CA* H1047L mutation was detected using probes labeled with FAM or HEX at varying ratios (e.g., 3:1 or 1:1), resulting in droplet clusters positioned along the diagonal between the two channels . This technique expands the multiplexing capability by exploiting inter-channel fluorescence.
 
 ![image.png](Mutation%20Detection%20with%20Amplitude%20Multiplexing/image%201.png)
-*source:[Rowlands et al., 2019](<https://www.nature.com/articles/s41598-019-49043-x>), Figures 7b*
+*source:[Rowlands et al., 2019](<https://www.nature.com/articles/s41598-019-49043-x>), Figure 7b*
 
 ![image.png](Mutation%20Detection%20with%20Amplitude%20Multiplexing/image%202.png)
 
-*source:[Rowlands et al., 2019](<https://www.nature.com/articles/s41598-019-49043-x>), Figures 7c*
+*source:[Rowlands et al., 2019](<https://www.nature.com/articles/s41598-019-49043-x>), Figure 7c*
 
 ---
 
