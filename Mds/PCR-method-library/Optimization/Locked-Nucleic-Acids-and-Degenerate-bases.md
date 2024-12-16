@@ -15,6 +15,7 @@ has_children: true
 In addition, the use of **degenerative bases** (or degenerate bases), which represent mixtures of possible nucleotides at specific positions within primers or probes, can be helpful when targeting sequences with polymorphisms or unknown variations (see the image below). Degenerative bases allow primers and probes to bind to multiple sequence variants without the need for designing multiple different oligonucleotides. This flexibility can be especially useful when working in regions of the genome with high variability or when exact sequence information is incomplete or uncertain. By incorporating degenerative bases, ddPCR assays can effectively capture a broader range of target variants, ensuring that key mutations or variants are not missed due to sequence mismatches.
 
 ![degen_probes.png](Locked-Nucleic%20Acids%20&%20Degenerate%20bases/degen_probes.png)
+
 *An example of a probe (shown without a quencher) with a degenerate base, intended to target loci exhibiting variability (eg., SNPs)*
 
 Together, LNAs and degenerative bases enhance the robustness of ddPCR assays by improving primer and probe binding efficiency, particularly in difficult-to-target regions. This enables more reliable and sensitive detection of genetic variants, even in complex genomic environments where traditional primers or probes might struggle.
