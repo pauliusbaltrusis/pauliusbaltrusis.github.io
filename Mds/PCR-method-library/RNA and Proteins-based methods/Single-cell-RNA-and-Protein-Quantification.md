@@ -28,17 +28,26 @@ The method starts with single-cell sorting, typically achieved using fluorescenc
 Both aliquots are then partitioned into droplets, allowing for absolute quantification and resulting in reliable detection of both RNA and proteins within the same cell.
 
 
-**Key Findings from the Study**
-
-In their analysis of CD147 expression in mammalian cells, the researchers uncovered several intriguing insights:
-
-- **Protein Production Efficiency:**
-
-    Approximately 1,000 proteins were found to be synthesized from a single mRNA molecule within a single cell.
-
-- **Low Correlation Between mRNA and Protein Levels:**
-
-    The study revealed a surprisingly weak correlation between mRNA and protein abundance within the same cell, challenging traditional assumptions about the tight coupling of transcription and translation. This finding highlights the complexity of post-transcriptional regulation and protein synthesis dynamics.
-
-
 This dual quantification technique is especially valuable for single-cell analysis, providing a tool to study gene expression and protein synthesis dynamics simultaneously, which is critical for applications in cell biology and even cancer research. The study marks a significant advancement in the ability to perform multiplexed, quantitative single-cell measurements.
+
+---
+
+A similar, dPLA approach by [Abasıyanık et al., 2020](https://www.nature.com/articles/s41467-020-16124-9) was employed to detect bacterial genes (16S) together with a sepsis-specific, inflammation-mediating effector proteins, such as IL-6 and TNF alpha.
+
+In this study, the authors utilized amplitude multiplexing to distinguish between 16S rRNA genes specific to gram-positive (GP) and gram-negative (GN) bacteria while simultaneously quantifying IL-6 levels in the same reaction well, creating a triplex assay. Furthermore, the study demonstrated how ddPCR could effectively correlate bacterial burden and inflammatory cytokine expression, offering a robust platform for monitoring infection dynamics and host immune responses in septic patients.
+
+![dPLA_bacteria.png](Single-cell%20RNA%20&%20Protein%20Quantification/dPLA_bacteria.png)
+*source: [Abasıyanık et al., 2020](https://www.nature.com/articles/s41467-020-16124-9) Figure 2 a*
+
+**Workflow Overview**
+
+The triplex assay preparation and execution in this study was significantly more straightforward compared to the study by [Albayrak et al. 2016](https://www.cell.com/molecular-cell/fulltext/S1097-2765(16)00174-X). The workflow consisted of the following steps:
+
+1. **Sample preparation and incubation**:
+  - A few microliters of the pre-diluted (in a 0.1x TM buffer) lavage fluid sample was with proximity probes and incubated at 37°C for 1 hour.
+2.  **Addition of the reaction mix**:
+  - This mixture was combined with a 20 µL ligation/ddPCR reaction mix containing primers, probes, and ligation additives.
+3. **Partitioning and ddPCR**:
+ - The final mixture was emulsified (partitioned) and subjected to thermal cycling: ligation at 25°C for 20 minutes, initial denaturation at 95°C for 5 minutes, 40 amplification cycles (94°C for 30 seconds, 60°C for 1 minute), and a final step at 98°C for 10 minutes.
+
+This study highlights the power of ddPCR for multiplexed detection of pathogens and protein biomarkers, paving the way for improved diagnostic tools in infectious diseases and inflammatory conditions.
