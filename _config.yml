@@ -42,6 +42,7 @@ nav:
       - Single Cell Mutant RNA Enrichment: /Mds/PCR-method-library/RNA and Proteins-based methods/Single-Cell-Mutant-RNA-Enrichment
       - Single Cell Transcript Profiling and Diagonal Multiplexing: /Mds/PCR-method-library/RNA and Proteins-based methods/Single-Cell-Transcript-Profiling-and-Diagonal-Multiplexing
   - qPCR Methods:
+    - Gene Expression Assay Setup: /Mds/PCR-method-library/qPCR/Gene-expression-reaction-setup
     - Molecular Beacons: /Mds/PCR-method-library/qPCR/Molecular-Beacons
     - Scorpion Probes: /Mds/PCR-method-library/qPCR/Scorpion-Probes
   - Isothermal Amplification Methods:
