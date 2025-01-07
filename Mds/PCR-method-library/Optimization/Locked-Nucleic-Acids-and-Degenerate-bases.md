@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Locked-Nucleic Acids & Degenerate bases
+title: Locked-Nucleic Acids & Degenerate Bases
 parent: Optimization
 nav_order: 4
 has_children: true
 ---
 
 
-# Locked-Nucleic Acids & Degenerate bases
+# Locked-Nucleic Acids & Degenerate Bases
 
 
 **Locked Nucleic Acids** (LNAs) and degenerative bases are important tools in designing primers and probes for digital droplet PCR (ddPCR), especially when targeting difficult regions of the genome. LNAs are chemically modified nucleotides where the ribose ring is locked in a rigid conformation, which significantly increases the thermal stability of the DNA duplex. Incorporating LNAs into primers or probes enhances their binding affinity to complementary sequences, allowing for more precise and stable hybridization, even under challenging conditions such as high GC content, secondary structures, or regions with low sequence complexity. This increased stability can result in improved specificity and sensitivity in ddPCR assays, reducing the risk of non-specific binding or amplification, which is particularly valuable when detecting rare mutations or small genetic variations (i.e. SNPs, especially transitions).

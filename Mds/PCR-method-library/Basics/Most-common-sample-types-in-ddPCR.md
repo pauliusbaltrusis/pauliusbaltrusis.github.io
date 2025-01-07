@@ -5,7 +5,7 @@ parent: Basics
 nav_order: 4
 has_children: true
 ---
-# Most common sample types in ddPCR
+# Most Common Sample Types in ddPCR
 
 Digital droplet PCR can be run with a variety of sample types, making it versatile for numerous applications in research and diagnostics. Some of the most common sample types compatible with ddPCR are listed below:
 

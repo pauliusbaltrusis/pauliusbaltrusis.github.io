@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Primer and Probe design
+title: Primer and Probe Design
 parent: Basics
 nav_order: 5
 has_children: true
 ---
-# Primer and Probe design
+# Primer and Probe Design
 
 This chapter focuses on the basics of ddPCR and the tools available to help you design your very own ddPCR assay.
 

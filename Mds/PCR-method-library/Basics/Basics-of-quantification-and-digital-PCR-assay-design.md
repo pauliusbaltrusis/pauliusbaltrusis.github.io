@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Basics of quantification & digital PCR assay design
+title: Basics of Quantification & digital PCR Assay Design
 parent: Basics
 nav_order: 1
 has_children: true
 ---
-# Basics of quantification & digital PCR assay design
+# Basics of Quantification & digital PCR Assay Design
 
 **Digital PCR (dPCR)** provides highly precise quantification of nucleic acids. Its core principles involve partitioning a sample into thousands of droplets, each acting as an individual reaction chamber. The dynamic amounts of positive and negative droplets as well as the average volume of the droplets are then used to predict the average target nucleic acid copy number using the Poisson distribution as the model that describes rare event detection.
 

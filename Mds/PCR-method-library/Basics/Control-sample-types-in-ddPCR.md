@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Control sample types in ddPCR
+title: Control Sample Types in ddPCR
 parent: Basics
 nav_order: 3
 has_children: true
 ---
-# Control sample types in ddPCR
+# Control Sample Types in ddPCR
 
 Arguably the most crucial part of any experiment is the control samples! ddPCR shares a number of similar control sample types with qPCR that should be run at the discretion of the user. I will provide an overview of some of the most common ones:
 

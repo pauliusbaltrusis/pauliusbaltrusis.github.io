@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Single Cell Mutant RNA enrichment
+title: Single Cell Mutant RNA Enrichment
 parent: RNA and Protein-based methods
 has_children: true
 nav_order: 5
 ---
 
-# Single Cell Mutant RNA enrichment
+# Single Cell Mutant RNA Enrichment
 
 
 To achieve highly specific detection of single-nucleotide variants (SNVs), **Peptide Nucleic Acid (PNA)** oligos can be utilized. A notable example is demonstrated in a study by [Sun et al., 2018](<https://pubs.acs.org/doi/10.1021/acssensors.8b00524>). In this study, the authors developed an assay to detect the *BRAF V600E* mutation—a site-specific alteration strongly associated with melanoma, the deadliest form of skin cancer—in the mRNA of single cells using PNA probes designed for highly specific binding.

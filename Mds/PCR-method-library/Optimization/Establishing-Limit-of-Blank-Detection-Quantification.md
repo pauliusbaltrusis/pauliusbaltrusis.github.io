@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Establishing Limit of Blank/Detection/Quantification for your assay
+title: Establishing Limit of Blank/Detection/Quantification for Your Assay
 parent: Optimization
 nav_order: 2
 has_children: true
 ---
 
 
-# Establishing Limit of Blank/Detection/Quantification for your assay
+# Establishing Limit of Blank/Detection/Quantification for Your Assay
 
 To ensure the robustness and reliability of your ddPCR assay, it is critical to define and validate key analytical parameters, such as the **Limit of Blank (LoB)**, **Limit of Detection (LoD)**, and **Limit of Quantification (LoQ)**. These metrics are foundational for accurate assay interpretation, particularly in applications such as rare mutation detection, pathogen quantification, or low-abundance target analysis.
 

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Dark probes
+title: Dark Probes
 parent: Optimization
 nav_order: 1
 has_children: true
 ---
-# Dark probes
+# Dark Probes
 
 **Dark probes** are highly effective in eliminating the signal from wild-type sequences by binding specifically to the wild-type target and quenching any potential fluorescence (see the image below). Since they lack a fluorescent reporter, these probes do not emit a signal upon hybridization. This effectively "silences" the wild-type allele, allowing the fluorescent signal from the mutant-specific probe to stand out more clearly. As a result, the overall background noise from the wild-type sequence is minimized, leading to highly specific detection of the mutant allele, even when present at very low frequencies. This specificity is critical in applications where detecting rare mutations in a large background of wild-type DNA is necessary, such as in liquid biopsies for cancer or detecting drug-resistant mutations.
 

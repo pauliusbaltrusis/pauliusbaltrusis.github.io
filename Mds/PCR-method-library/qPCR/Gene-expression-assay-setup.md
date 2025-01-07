@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Gene expression assay setup
+title: Gene Expression Assay Setup
 parent: qPCR Methods
 has_children: true
 nav_order: 1
@@ -9,7 +9,7 @@ nav_order: 1
 # Gene Expression Assay Setup
 
 The following short guide is based on the publication by [S.C. Taylor et al., 2019]([https://www.cell.com/trends/biotechnology/fulltext/S0167-7799(18)30342-1](https://www.cell.com/trends/biotechnology/fulltext/S0167-7799(18)30342-1)). The original article has a lot of great tips and insight, especially for qPCR beginners. I highly recommend reading through it at least once.
-If you’re not sure how to design a primer pair for your target, you can always refer to the section on [Primer and Probe design](Mds/PCR-method-library/Basics/Primer-and-Probe-design.html).
+If you’re not sure how to design a primer pair for your target, you can always refer to the section on [Primer and Probe Design](Mds/PCR-method-library/Basics/Primer-and-Probe-design.html).
 
 **The First Experiments**
 
@@ -25,7 +25,7 @@ By conducting this experiment you will satisfy the points 1 & 2 in the [MIQE gui
 
   **EXAMPLE:** *Let’s say in your first experiment you determined the optimal annealing temperature to be Ta=55 degrees, because out all the different annealing temperatures, the reaction at 55 degrees produced the sigmoidal curve that has the lowest Cq value (=18). Therefore, you should make serial dilutions of your pan-sample at 1:4 ratios of sample:sample+water.*
 
-In addition to running the serial dilutions of your pooled sample, make sure to include the necessary controls and replicates (at least 2 or 3 technical replicates) in the experiment. At the very least an NTC should be run in parallel with all your experiments. Since qPCR and digital PCR share a lot of similar control types, i recommended checking out the section on [Control sample types in ddPCR](/Mds/PCR-method-library/Basics/Control-sample-types-in-ddPCR.html) and picking the most relevant controls for your experiments.
+In addition to running the serial dilutions of your pooled sample, make sure to include the necessary controls and replicates (at least 2 or 3 technical replicates) in the experiment. At the very least an NTC should be run in parallel with all your experiments. Since qPCR and digital PCR share a lot of similar control types, i recommended checking out the section on [Control Sample Types in ddPCR](/Mds/PCR-method-library/Basics/Control-sample-types-in-ddPCR.html) and picking the most relevant controls for your experiments.
 
 After having run the second experiment comes the most critical part in the primer validation step - the determination of the reaction efficiency. Typically, your qPCR software plots the standard curves and provides the most important measurements (such as r-squared value, a.k.a. linearity, slope, and efficiency) for you. Your end-goal for this experiment to obtain the reaction efficiency somewhere between 90%-110%. Reaction efficiencies below 90% indicate sub-optimal amplification and likely mean you have to redesign your primers, whereas efficiencies above 110% point to some sort of polymerase inhibition (and thus improved amplification at higher dilutions), which should be addressed by reviewing the sample preparation process and eliminating the source of potential inhibitors.
 
@@ -36,7 +36,7 @@ By conducting the second experiment (+ including relevant controls) you will hav
 
 **Controls**
 
-I can’t stress the importance of running adequate controls for your experiments. Have a look at the [Control sample types in ddPCR](/Mds/PCR-method-library/Basics/Control-sample-types-in-ddPCR.html) to get an idea of the type of controls you would likely need in your qPCR experiments. For example, you might consider running:
+I can’t stress the importance of running adequate controls for your experiments. Have a look at the [Control Sample Types in ddPCR](/Mds/PCR-method-library/Basics/Control-sample-types-in-ddPCR.html) to get an idea of the type of controls you would likely need in your qPCR experiments. For example, you might consider running:
 
 **Negative template control(s),** in order to ensure there’s no reagent contamination with the amplicon or that your primer pair does not produce any false positive (nonspecific) signal in the absence of the template.
 
@@ -52,8 +52,8 @@ In order to understand what happens to your gene target at different biological 
 
 **Alternative Approach**
 
-If at any point the experimental data proves to be unstable and thus unusable (for example, due to low reaction efficiency, low consistency & high variability), consider switching to digital PCR. Digital PCR is typically less susceptible to inhibitors, requires no standard curves and, more importantly, is a much more precise technique - thanks to the partitioning step prior to PCR.
+If at any point the experimental data proves to be unstable and thus unusable (for example, due to low reaction efficiency, low consistency & high variability), consider switching to digital PCR. Digital PCR is typically less susceptible to inhibitors, requires no standard curves aand, more importantly, is a much more precise technique - thanks to the partitioning step prior to PCR.
 
 For a summary workflow, refer to the diagram below.
-![figure6ge.png](Gene%20expression%20assay%20setup/figure6ge.png)
+![figure6ge.jpg](Gene%20expression%20assay%20setup/figure6ge.jpg)
 *source: [S.C. Taylor et al., 2019](https://www.cell.com/trends/biotechnology/fulltext/S0167-7799(18)30342-1) Figure 6*

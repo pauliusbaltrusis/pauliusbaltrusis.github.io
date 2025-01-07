@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Integrity of long RNA
+title: Integrity of Long RNA
 parent: RNA and Protein-based methods
 has_children: true
 nav_order: 1
 ---
 
-# Integrity of long RNA
+# Integrity of Long RNA
 
 Digital droplet PCR (ddPCR) is an invaluable tool for determining whether long nucleic acid molecules remain intact after processes such as enzymatic reactions or viral nucleic acid replication. This capability is particularly useful for studies involving complex molecular structures, like self-amplifying RNA (saRNA).
 
