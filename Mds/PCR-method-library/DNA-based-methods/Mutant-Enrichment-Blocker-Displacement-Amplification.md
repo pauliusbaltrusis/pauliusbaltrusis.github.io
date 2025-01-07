@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Mutant enrichment via Blocker Displacement Amplification
+title: Mutant Enrichment via Blocker Displacement Amplification
 parent: DNA-based ddPCR Methods
 has_children: true
 nav_order: 6
 ---
 
-# Mutant enrichment via Blocker Displacement Amplification
+# Mutant Enrichment via Blocker Displacement Amplification
 
 Blocker Displacement Amplification (BDA) is a technique used to selectively enrich and amplify rare DNA variants, particularly those present at very low frequencies in a sample. The method was first reported in a study by [Wu et al., 2017](<https://www.nature.com/articles/s41551-017-0126-5>). The method was developed to address the challenges of detecting rare mutations in the presence of overwhelming wild-type DNA, a common issue in applications such as cancer liquid biopsies and low-frequency genetic variant analysis.
 

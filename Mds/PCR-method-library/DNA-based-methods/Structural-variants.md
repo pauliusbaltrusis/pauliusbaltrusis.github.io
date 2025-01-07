@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Structural variants
+title: Structural Variants
 parent: DNA-based ddPCR Methods
 has_children: true
 nav_order: 10
 ---
 
-# Structural variants
+# Structural Variants
 
 Although most applications of droplet digital PCR (ddPCR) focus on detecting small genetic variations such as indels or single nucleotide polymorphisms (SNPs), the technology can also be adapted to detect and quantify large structural variations, including large excisions (up to hundreds of thousands of nucleotides) and inversions.
 

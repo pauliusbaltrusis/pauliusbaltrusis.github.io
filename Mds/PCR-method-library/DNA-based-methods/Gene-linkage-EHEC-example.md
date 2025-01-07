@@ -6,7 +6,7 @@ has_children: true
 nav_order: 2
 ---
 
-# Gene linkage: EHEC example
+# Gene Linkage: EHEC example
 
 A study investigating gene linkage in prokaryotes, specifically *E. coli*, was conducted by [McMahon et al., 2017](<https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2017.00332/full>). The research focused on quantifying the linkage between the bacterial genes *eae* and *stx,* both of which must be present in the same cell to classify the strain as pathogenic EHEC. The challenge arises because commensal, non-pathogenic *E. coli* may harbor either of these genes independently, leading to both genes being detected in mixed populations. The key objective was to differentiate samples positive for EHEC (containing both genes within the same genome) from non-pathogenic mixed flora, where the genes are not linked.
 

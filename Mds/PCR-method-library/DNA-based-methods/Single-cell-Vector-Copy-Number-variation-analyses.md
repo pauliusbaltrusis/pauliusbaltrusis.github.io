@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Single-cell Vector Copy Number variation analyses
+title: Single-cell Vector Copy Number Variation Analyses
 parent: DNA-based ddPCR Methods
 has_children: true
 nav_order: 9
 ---
 
-# Single-cell Vector Copy Number variation analyses
+# Single-cell Vector Copy Number Variation Analyses
 
 When working with integrating vectors such as retroviruses and lentiviruses, it is essential to determine the copy number of cargo genes inserted into the host’s genome following infection. Screening a cell population with droplet digital PCR for a cargo gene and normalizing its signal to a housekeeping gene provides an estimate of the average number of cargo-gene copies across the population. However, this approach only gives average values and does not account for the distribution of vector integration events. This means we lack critical insights into how much of the population has more than one copy of the cargo gene or none at all. For example, while the average number of integrations might be determined as *one per genome*, the proportions of cells with 0, 1, or more copies remain unknown (see image below).
 

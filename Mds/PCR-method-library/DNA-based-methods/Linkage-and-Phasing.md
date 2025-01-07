@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Linkage and phasing
+title: Linkage and Phasing
 parent: DNA-based ddPCR Methods
 has_children: true
 nav_order: 3
 ---
 
-# Linkage and phasing
+# Linkage and Phasing
 
 
 By focusing on the presence or absence of abnormal numbers of double-positive droplets, ddPCR can be used to investigate linkage and even phase multiple variants at different loci. A study by [Regan et al., 2015](<https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118270>) outlines one such approach, which evaluates molecular integrity and uses restriction enzymes to test linkage.
