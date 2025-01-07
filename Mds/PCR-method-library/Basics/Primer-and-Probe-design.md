@@ -16,7 +16,7 @@ If you'd like to create a simple gene-target detection assay, you'll need:
 
 For singleplex detection (one target at a time), you can use a DNA intercalating dye like EvaGreen, where probes aren’t necessary, and primers alone suffice. However, for multiplexing, it’s recommended to develop primer-probe pairs from the outset.
 
-**Tools for Primer and Probe Desgn**
+**Tools for Primer and Probe Design**
 
 The most well-known online tool for primer sequence development is [Primer3Plus](<https://www.primer3plus.com/index.html>). Paste your target locus sequence, set optimal amplicon sizes (60–200 bp; the shorter the amplicon - the better the reaction efficiency), and ensure:
 
