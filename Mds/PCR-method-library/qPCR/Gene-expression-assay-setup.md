@@ -9,7 +9,7 @@ nav_order: 1
 # Gene Expression Assay Setup
 
 The following short guide is based on the publication by [S.C. Taylor et al., 2019]([https://www.cell.com/trends/biotechnology/fulltext/S0167-7799(18)30342-1](https://www.cell.com/trends/biotechnology/fulltext/S0167-7799(18)30342-1)). The original article has a lot of great tips and insight, especially for qPCR beginners. I highly recommend reading through it at least once.
-If you’re not sure how to design a primer pair for your target, you can always refer to the section on [Primer and Probe Design](Mds/PCR-method-library/Basics/Primer-and-Probe-design.html).
+If you’re not sure how to design a primer pair for your target, you can always refer to the section on [Primer and Probe Design](/Mds/PCR-method-library/Basics/Primer-and-Probe-design.html).
 
 **The First Experiments**
 
