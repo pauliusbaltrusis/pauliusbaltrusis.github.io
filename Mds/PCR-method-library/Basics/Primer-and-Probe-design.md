@@ -62,7 +62,7 @@ Also make sure to adhere to these [Bio-Rad-issued guidelines](<https://www.bio-r
 
 **Validating Primer and Probe Sequences**
 
-1. Self-Annealing and Structural Issues:
+  1. Self-Annealing and Structural Issues:
 
 Use [PCR Primer Stats](<https://www.bioinformatics.org/sms2/pcr_primer_stats.html>) to identify:
 
@@ -72,7 +72,7 @@ Use [PCR Primer Stats](<https://www.bioinformatics.org/sms2/pcr_primer_stats.htm
 
 A few self-annealing base pairs are manageable, but excessive structures can reduce reaction efficiency.
 
-2. Primer-Dimer Analysis:
+  2. Primer-Dimer Analysis:
 
 Check forward-reverse primer interactions using [Multiple Primer Analyzer](<https://www.thermofisher.com/se/en/home/brands/thermo-scientific/molecular-biology/molecular-biology-learning-center/molecular-biology-resource-library/thermo-scientific-web-tools/multiple-primer-analyzer.html>). Input your sequences in fasta format and adjust:
 
@@ -82,7 +82,7 @@ Check forward-reverse primer interactions using [Multiple Primer Analyzer](<http
 
 This tool provides Tms, self-dimer stats, and other crucial metrics. Ensure primer Tms differ from probes by 3–10°C.
 
-3. SNP Detection Probes Check-up:
+  3. SNP Detection Probes Check-up:
 
 For SNP assays, design two probes—one for wild type (e.g., AGG) and another for the mutant (e.g., ACG). Minimize cross-reactivity using [Oligo Analyzer](<https://www.idtdna.com/calc/analyzer>):
 

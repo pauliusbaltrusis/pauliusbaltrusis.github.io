@@ -34,13 +34,13 @@ nav:
       - Single-cell Vector Copy Number Variation Analyses: /Mds/PCR-method-library/DNA-based-methods/Single-cell-Vector-Copy-Number-variation-analyses
       - Structural Variants: /Mds/PCR-method-library/DNA-based-methods/Structural-variants
     - RNA and Protein-based Methods:
-      - Integrity of long RNA: /Mds/PCR-method-library/RNA and Proteins-based methods/Integrity-of-long-RNA
-      - Ligation Probes for miRNA Quantification: /Mds/PCR-method-library/RNA and Proteins-based methods/Ligation-Probes-for-miRNA-Quantification
-      - Quantification of Extracellular Vesicles: /Mds/PCR-method-library/RNA and Proteins-based methods/Quantification-of-Extracellular-Vesicles
-      - Selfie-dPCR: /Mds/PCR-method-library/RNA and Proteins-based methods/Selfie-dPCR
-      - Single Cell RNA & Protein Quantification: /Mds/PCR-method-library/RNA and Proteins-based methods/Single-cell-RNA-and-Protein-Quantification
-      - Single Cell Mutant RNA Enrichment: /Mds/PCR-method-library/RNA and Proteins-based methods/Single-Cell-Mutant-RNA-Enrichment
-      - Single Cell Transcript Profiling and Diagonal Multiplexing: /Mds/PCR-method-library/RNA and Proteins-based methods/Single-Cell-Transcript-Profiling-and-Diagonal-Multiplexing
+      - Integrity of long RNA: /Mds/PCR-method-library/RNA and Protein-based methods/Integrity-of-long-RNA
+      - Ligation Probes for miRNA Quantification: /Mds/PCR-method-library/RNA and Protein-based methods/Ligation-Probes-for-miRNA-Quantification
+      - Quantification of Extracellular Vesicles: /Mds/PCR-method-library/RNA and Protein-based methods/Quantification-of-Extracellular-Vesicles
+      - Selfie-dPCR: /Mds/PCR-method-library/RNA and Protein-based methods/Selfie-dPCR
+      - Single Cell RNA & Protein Quantification: /Mds/PCR-method-library/RNA and Protein-based methods/Single-cell-RNA-and-Protein-Quantification
+      - Single Cell Mutant RNA Enrichment: /Mds/PCR-method-library/RNA and Protein-based methods/Single-Cell-Mutant-RNA-Enrichment
+      - Single Cell Transcript Profiling and Diagonal Multiplexing: /Mds/PCR-method-library/RNA and Protein-based methods/Single-Cell-Transcript-Profiling-and-Diagonal-Multiplexing
   - qPCR Methods:
     - Gene Expression Assay Setup: /Mds/PCR-method-library/qPCR/Gene-expression-reaction-setup
     - Molecular Beacons: /Mds/PCR-method-library/qPCR/Molecular-Beacons
