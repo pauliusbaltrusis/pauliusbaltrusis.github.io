@@ -29,8 +29,7 @@ As shown in a study by [Hussung et al., 2020](<https://pubmed.ncbi.nlm.nih.gov/3
 ![image.png](Mutation%20Detection%20with%20Amplitude%20Multiplexing/image%201.png)
 *source:[Rowlands et al., 2019](<https://www.nature.com/articles/s41598-019-49043-x>), Figure 7b*
 
-![image.png](Mutation%20Detection%20with%20Amplitude%20Multiplexing/image%202.png)
-
+![image.png](Mutation%20Detection%20with%20Amplitude%20Multiplexing/image%202.png)\
 *source:[Rowlands et al., 2019](<https://www.nature.com/articles/s41598-019-49043-x>), Figure 7c*
 
 ---

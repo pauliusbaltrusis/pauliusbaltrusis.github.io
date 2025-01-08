@@ -20,32 +20,33 @@ This brief entry provides step-by-step guidelines for determining these limits, 
 In order to establish **LoB**, do the following:
 
 1. Run your ddPCR assay with (e.g., 20) NTC replicates
-2. Calculate the **LoB** using the formula:
+2. Calculate the LoB using the formula:
 
-LoB=mean(NTC)+1.645×SD(NTC)
+  **LoB=Mean<sub>NTC</sub>+1.645×SD<sub>NTC</sub>**
 
-Where:
+  Where:
 
-- mean - Mean target concentration in NTC (blank) replicates.
-- SD - Standard deviation of target in NTC (blank) replicates.
+  - Mean<sub>NTC</sub> - Mean target concentration in NTC (blank) replicates.
+  - SD<sub>NTC</sub> - Standard deviation of target in NTC (blank) replicates.
 
 For the **LoD**, the following can be done:
 
 1. Since, LoD is calculated by utilizing the measured LoB and testing replicates with a low concentration of the target, you can create serial dilutions of the target sequence (using a positive control, e.g. gBlock) around the anticipated LoD. Make sure to include at least 3 concentrations near the threshold and run multiple replicates (e.g., 20).
 2. Calculate the LoD using the formula below:
 
-LoD = LoB + 1.645(SD low concentration of target)
+      **LoD = LoB + 1.645xSD<sub>low concentration of target</sub>**
 
-Where:
+      Where:
 
-- LoB - previously established LoB for this assay
-- SD low concentration of target - standard deviation in samples with low concentrations of the target sequence
+      LoB - previously established LoB for this assay\
+      SD<sub>low concentration of target</sub> - standard deviation in samples with low concentrations of the target sequence
 
 For the **LoQ**, you can do this:
 
-1. The LoQ can range from being equivalent to the LoD to a much higher concentration value but is never lower than the LoD. Using the previous dilution experiment to establish the LoD, you can identify the concentration at which the precision, typically expressed as CV*, is equal or below to a predetermined value - e.g., 20%.
+The LoQ can range from being equivalent to the LoD to a much higher concentration value but is never lower than the LoD. Using the previous dilution experiment to establish the LoD, you can identify the concentration at which the precision, typically expressed as %CV*, is equal or below to a predetermined value - e.g., 20%.
 
-*CV is calculated (for each dilution) by dividing the standard deviation by the mean concentration of the target sequence in your replicates. For example, let’s imagine that for dilution X, you consistently get around 10 copies/ul of the target sequence. Your standard deviation is 0.4 copies/ul. Then, CV (%) = (0.4/10) * 100% = 4 %.
+\***CV is calculated (for each dilution) by dividing the standard deviation by the mean concentration of the target sequence in your replicates.*\
+EXAMPLE: let’s imagine that for dilution X, you consistently get around 10 copies/ul of the target sequence. Your standard deviation is 0.4 copies/ul. Then, %CV = (0.4/10) * 100% = 4 %.*
 
 The image below summarizes the differences between **LoB**, **LoD** and **LoQ** and what each of these parameters represent. For more info, you can also refer to this [Bio-Rad Bulletin 7183 Ver A](<https://dna.uga.edu/wp-content/uploads/sites/51/2021/03/Droplet-Digital-PCR-Guide.pdf>).
 

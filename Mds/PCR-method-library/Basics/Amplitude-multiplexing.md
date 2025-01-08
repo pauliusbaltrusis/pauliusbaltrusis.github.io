@@ -13,21 +13,20 @@ The amplitude multiplexing method not only simplifies the experimental setup (an
 
 Examples below showcase amplitude multiplexing for:
 
-  - **Gene target detection & quantification:**
+- **Gene target detection & quantification:**
 
-![19-0670-figure1.jpg](Amplitude%20multiplexing/19-0670-figure1.jpg)
-*source: [Bio-Rad](<https://www.youtube.com/watch?v=OOAcTme9-WM&ab_channel=Bio-RadLaboratories](https://www.youtube.com/watch?v=OOAcTme9-WM&ab_channel=Bio-RadLaboratories>)*
+  ![19-0670-figure1.jpg](Amplitude%20multiplexing/19-0670-figure1.jpg)
+  *source: [Bio-Rad](<https://www.youtube.com/watch?v=OOAcTme9-WM&ab_channel=Bio-RadLaboratories](https://www.youtube.com/watch?v=OOAcTme9-WM&ab_channel=Bio-RadLaboratories>)*
 
-  - **Multiplex detection of multiple *KRAS* mutations in the same channel:**
+- **Multiplex detection of multiple *KRAS* mutations in the same channel:**
 
-![image.png](Amplitude%20multiplexing/image.png)
-*source: [Hussung et al., 2020](<https://www.jmdjournal.org/article/S1525-1578(20)30300-7/fulltext>)*
+  ![image.png](Amplitude%20multiplexing/image.png)
+  *source: [Hussung et al., 2020](<https://www.jmdjournal.org/article/S1525-1578(20)30300-7/fulltext>), Figure 2A*
 
-  - **Multiplex detection of multiple *PIK3CA* mutations via amplitude multiplexing and diagonal multiplexing (i.e. detection of a target in between the two channels):**
+- **Multiplex detection of multiple *PIK3CA* mutations via amplitude multiplexing and diagonal multiplexing (i.e. detection of a target in between the two channels):**
 
-![image.png](Amplitude%20multiplexing/image%201.png)
-
-*source: [Rowlands et al., 2019](<https://www.nature.com/articles/s41598-019-49043-x>)*
+  ![image.png](Amplitude%20multiplexing/image%201.png)\
+  *source: [Rowlands et al., 2019](<https://www.nature.com/articles/s41598-019-49043-x>), Figure 7C*
 
 Thus by adjusting primer-probe concentrations, amplicon lengths (if working with EvaGreen) or spiking in a fraction of your probe labelled with a different fluorophore (e.g., HEX) one can multiplex and detect multiple target sequences either within the same channel or in between the two channels.
 
