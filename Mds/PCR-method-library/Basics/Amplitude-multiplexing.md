@@ -18,12 +18,12 @@ Examples below showcase amplitude multiplexing for:
 ![19-0670-figure1.jpg](Amplitude%20multiplexing/19-0670-figure1.jpg)
 *source: [Bio-Rad](<https://www.youtube.com/watch?v=OOAcTme9-WM&ab_channel=Bio-RadLaboratories](https://www.youtube.com/watch?v=OOAcTme9-WM&ab_channel=Bio-RadLaboratories>)*
 
-1. Multiplex detection of multiple *KRAS* mutations in the same channel:
+2. Multiplex detection of multiple *KRAS* mutations in the same channel:
 
 ![image.png](Amplitude%20multiplexing/image.png)
 *source: [Hussung et al., 2020](<https://www.jmdjournal.org/article/S1525-1578(20)30300-7/fulltext>)*
 
-1. Multiplex detection of multiple *PIK3CA* mutations via amplitude multiplexing and diagonal multiplexing (i.e. detection of a target in between the two channels):
+3. Multiplex detection of multiple *PIK3CA* mutations via amplitude multiplexing and diagonal multiplexing (i.e. detection of a target in between the two channels):
 
 ![image.png](Amplitude%20multiplexing/image%201.png)
 
