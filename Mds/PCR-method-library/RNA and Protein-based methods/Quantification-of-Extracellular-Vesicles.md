@@ -12,8 +12,8 @@ nav_order: 3
 
 [Ko et al., 2020](<https://onlinelibrary.wiley.com/doi/full/10.1002/adbi.201900307#adbi201900307-bib-0024>) developed a modified ddPCR method, known as immuno-ddPCR (iddPCR), for the accurate quantification of target proteins expressed on EVs. Check out the summary of the entire workflow below:
 
-![Quantification%20of%20Extracellular%20Vesicles/image.png](Quantification%20of%20Extracellular%20Vesicles/image.png)
-*Source:[Ko et al., 2020](<https://onlinelibrary.wiley.com/doi/full/10.1002/adbi.201900307#adbi201900307-bib-0024>), Figure 1*
+![Quantification%20of%20Extracellular%20Vesicles/image.png](Quantification%20of%20Extracellular%20Vesicles/image.png)\
+*Source: [Ko et al., 2020](<https://onlinelibrary.wiley.com/doi/full/10.1002/adbi.201900307#adbi201900307-bib-0024>), Figure 1*
 
 ---
 
@@ -23,20 +23,16 @@ The entire workflow consists of:
 
   Barcoded monoclonal antibodies bind specifically to target proteins on EVs. After incubation, size exclusion chromatography (SEC) removes unbound antibody–DNA complexes.
 
-  ![Quantification%20of%20Extracellular%20Vesicles/6c2ccbd4-860f-4bd1-b2b1-280ab2ab0e0f.png](Quantification%20of%20Extracellular%20Vesicles/6c2ccbd4-860f-4bd1-b2b1-280ab2ab0e0f.png)
-  *Source:[Ko et al., 2020]([https://onlinelibrary.wiley.com/doi/full/10.1002/adbi.201900307#adbi201900307-bib-0024](https://onlinelibrary.wiley.com/doi/full/10.1002/adbi.201900307#adbi201900307-bib-0024)), Figure 2 (adapted)*
-
+  ![Quantification%20of%20Extracellular%20Vesicles/6c2ccbd4-860f-4bd1-b2b1-280ab2ab0e0f.png](Quantification%20of%20Extracellular%20Vesicles/6c2ccbd4-860f-4bd1-b2b1-280ab2ab0e0f.png)\
+  *Source: [Ko et al., 2020]([https://onlinelibrary.wiley.com/doi/full/10.1002/adbi.201900307#adbi201900307-bib-0024](https://onlinelibrary.wiley.com/doi/full/10.1002/adbi.201900307#adbi201900307-bib-0024)), Figure 2 (adapted)*
 
 2. **Encapsulation in Droplets**
 
   Using a two-channel droplet microfluidic system, antibody-bound EVs are encapsulated separately from the PCR master mix to prevent EV lysis. The ddPCR supermix for Probes is used as the PCR mix, while Droplet Generation Oil for Probes is used to generate the droplets.
 
-
 3. **In Situ Amplification of DNA Barcodes**
 
   Droplets undergo thermal cycling (35 cycles) according to Bio-Rad's ddPCR protocol, allowing amplification of the DNA barcodes. These droplets are stable at room temperature until ready for signal reading.
-
-
 4. **Fluorescent Detection and Quantification**
 
   A high-speed imaging camera detects fluorescent droplets. The system used in the study achieved a limit of detection (LOD) of 38 EVs/µL and a dynamic range spanning three orders of magnitude.  
@@ -47,8 +43,8 @@ The entire workflow consists of:
 
 The iddPCR method supports multiplex analysis by incorporating multiple antibody barcodes and probes. This enables simultaneous detection of various proteins on EVs, as shown below:
 
-![Quantification%20of%20Extracellular%20Vesicles/adbi201900307-fig-0005-m.jpg](Quantification%20of%20Extracellular%20Vesicles/adbi201900307-fig-0005-m.jpg)
-*Source:[Ko et al., 2020](<https://onlinelibrary.wiley.com/doi/full/10.1002/adbi.201900307#adbi201900307-bib-0024>), Figure 5*
+![Quantification%20of%20Extracellular%20Vesicles/adbi201900307-fig-0005-m.jpg](Quantification%20of%20Extracellular%20Vesicles/adbi201900307-fig-0005-m.jpg)\
+*Source: [Ko et al., 2020](<https://onlinelibrary.wiley.com/doi/full/10.1002/adbi.201900307#adbi201900307-bib-0024>), Figure 5*
 
 
 The **iddPCR** technique is a highly sensitive and precise method for quantifying proteins on EVs. It supports both singleplex and multiplex analyses, paving the way for advanced studies in biomarker discovery and therapeutic research.

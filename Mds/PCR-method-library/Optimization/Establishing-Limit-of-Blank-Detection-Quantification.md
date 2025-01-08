@@ -22,12 +22,12 @@ In order to establish **LoB**, do the following:
 1. Run your ddPCR assay with (e.g., 20) NTC replicates
 2. Calculate the LoB using the formula:
 
-  **LoB=Mean<sub>NTC</sub>+1.645×SD<sub>NTC</sub>**
+    **LoB=Mean<sub>NTC</sub>+1.645×SD<sub>NTC</sub>**
 
-  Where:
+    Where:
 
-  - Mean<sub>NTC</sub> - Mean target concentration in NTC (blank) replicates.
-  - SD<sub>NTC</sub> - Standard deviation of target in NTC (blank) replicates.
+     Mean<sub>NTC</sub> - Mean target concentration in NTC (blank) replicates\
+     SD<sub>NTC</sub> - Standard deviation of target in NTC (blank) replicates
 
 For the **LoD**, the following can be done:
 
@@ -45,8 +45,8 @@ For the **LoQ**, you can do this:
 
 The LoQ can range from being equivalent to the LoD to a much higher concentration value but is never lower than the LoD. Using the previous dilution experiment to establish the LoD, you can identify the concentration at which the precision, typically expressed as %CV*, is equal or below to a predetermined value - e.g., 20%.
 
-\***CV is calculated (for each dilution) by dividing the standard deviation by the mean concentration of the target sequence in your replicates.*\
-EXAMPLE: let’s imagine that for dilution X, you consistently get around 10 copies/ul of the target sequence. Your standard deviation is 0.4 copies/ul. Then, %CV = (0.4/10) * 100% = 4 %.*
+\* *CV is calculated (for each dilution) by dividing the standard deviation by the mean concentration of the target sequence in your replicates.* \
+*EXAMPLE: let’s imagine that for dilution X, you consistently get around 10 copies/ul of the target sequence. Your standard deviation is 0.4 copies/ul. Then, %CV = (0.4/10) * 100% = 4 %.*
 
 The image below summarizes the differences between **LoB**, **LoD** and **LoQ** and what each of these parameters represent. For more info, you can also refer to this [Bio-Rad Bulletin 7183 Ver A](<https://dna.uga.edu/wp-content/uploads/sites/51/2021/03/Droplet-Digital-PCR-Guide.pdf>).
 
