@@ -2,6 +2,7 @@
 layout: default
 title: RNA and Protein-based Methods
 parent: ddPCR
+has_children: true
 nav_order: 4
 ---
 
