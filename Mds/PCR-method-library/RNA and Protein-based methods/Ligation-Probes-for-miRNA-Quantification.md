@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ligation Probes for miRNA Quantification
-parent: RNA and Protein-based Methods
+parent: RNA and Protein-based ddPCR Methods
 has_children: true
 nav_order: 2
 ---

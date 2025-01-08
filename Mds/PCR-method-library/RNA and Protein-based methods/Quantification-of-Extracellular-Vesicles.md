@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Quantification of Extracellular Vesicles
-parent: RNA and Protein-based Methods
+parent: RNA and Protein-based ddPCR Methods
 has_children: true
 nav_order: 3
 ---

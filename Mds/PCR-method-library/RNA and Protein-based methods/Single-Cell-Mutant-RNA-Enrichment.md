@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Single Cell Mutant RNA Enrichment
-parent: RNA and Protein-based Methods
+parent: RNA and Protein-based ddPCR Methods
 has_children: true
 nav_order: 5
 ---
