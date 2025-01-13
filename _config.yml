@@ -24,6 +24,7 @@ nav:
       - Singleplex Multiplex ddPCR Reaction Optimization: /Mds/PCR-method-library/Optimization/Singleplex-Multiplex-ddPCR-Reaction-Optimization
     - DNA-based ddPCR Methods:
       - Drop-off probes: /Mds/PCR-method-library/DNA-based-methods/Drop-off-Probes
+      - Gene Editing with CRISPR/Cas: /Mds/PCR-method-library/DNA-based-methods/Gene-Editing-with-CRISPR-Cas
       - Gene Linkage EHEC Example: /Mds/PCR-method-library/DNA-based-methods/Gene-linkage-EHEC-example
       - Linkage and Phasing: /Mds/PCR-method-library/DNA-based-methods/Linkage-and-Phasing
       - Long Amplicon (LA) ddPCR: /Mds/PCR-method-library/DNA-based-methods/Long-Amplicon-(LA)-ddPCR

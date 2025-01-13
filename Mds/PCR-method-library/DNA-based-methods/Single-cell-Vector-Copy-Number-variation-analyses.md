@@ -3,7 +3,7 @@ layout: default
 title: Single-cell Vector Copy Number Variation Analyses
 parent: DNA-based ddPCR Methods
 has_children: true
-nav_order: 9
+nav_order: 10
 ---
 
 # Single-cell Vector Copy Number Variation Analyses
