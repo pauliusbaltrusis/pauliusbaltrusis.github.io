@@ -22,7 +22,7 @@ As shown in a study by [Hussung et al., 2020](<https://pubmed.ncbi.nlm.nih.gov/3
 ![image.png](Mutation%20Detection%20with%20Amplitude%20Multiplexing/image.png)
 *source: [Hussung et al., 2020](<https://linkinghub.elsevier.com/retrieve/pii/S1525-1578(20)30300-7>), Figure 2A*
 
-**Example 2: Diagonal Clustering with Mixed Channels**
+**Example 2: Radial Clustering with Mixed Channels**
 
 [Rowlands et al., 2019](<https://www.nature.com/articles/s41598-019-49043-x>) demonstrated a novel approach using both FAM and HEX channels for mutation detection. For instance, the *PIK3CA* H1047L mutation was detected using probes labeled with FAM or HEX at varying ratios (e.g., 3:1 or 1:1), resulting in droplet clusters positioned along the diagonal between the two channels . This technique expands the multiplexing capability by exploiting inter-channel fluorescence.
 
