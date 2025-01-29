@@ -3,7 +3,7 @@ layout: default
 title: Scorpion Probes
 parent: qPCR Methods
 has_children: true
-nav_order: 3
+nav_order: 4
 ---
 
 # Scorpion Probes
