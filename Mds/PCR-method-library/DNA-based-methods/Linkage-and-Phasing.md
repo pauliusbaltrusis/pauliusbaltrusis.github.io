@@ -3,7 +3,7 @@ layout: default
 title: Linkage and Phasing
 parent: DNA-based ddPCR Methods
 has_children: true
-nav_order: 4
+nav_order: 5
 ---
 
 # Linkage and Phasing

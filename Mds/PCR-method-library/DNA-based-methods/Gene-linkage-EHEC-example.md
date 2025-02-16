@@ -3,7 +3,7 @@ layout: default
 title: Gene linkage EHEC example
 parent: DNA-based ddPCR Methods
 has_children: true
-nav_order: 3
+nav_order: 4
 ---
 
 # Gene Linkage: EHEC example

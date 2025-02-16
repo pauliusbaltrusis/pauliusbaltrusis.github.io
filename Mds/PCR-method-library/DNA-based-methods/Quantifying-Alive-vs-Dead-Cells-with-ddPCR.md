@@ -3,7 +3,7 @@ layout: default
 title: Quantifying Alive vs Dead Cells with ddPCR
 parent: DNA-based ddPCR Methods
 has_children: true
-nav_order: 11
+nav_order: 12
 ---
 
 # Quantifying Alive vs Dead Cells with ddPCR
