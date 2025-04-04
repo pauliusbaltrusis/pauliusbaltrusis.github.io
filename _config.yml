@@ -53,6 +53,7 @@ nav:
     - Mediator Probe PCR: /Mds/PCR-method-library/qPCR/Mediator-Probe-qPCR
     - Molecular Beacons: /Mds/PCR-method-library/qPCR/Molecular-Beacons
     - Scorpion Probes: /Mds/PCR-method-library/qPCR/Scorpion-Probes
+    - T-Blocker qPCR: /Mds/PCR-method-library/qPCR/T-Blocker-qPCR
   - Isothermal Amplification Methods:
     - Hyperplex PCR: /Mds/PCR-method-library/Isothermal-amplification-methods/Hyperplex-PCR
     - LAMP: /Mds/PCR-method-library/Isothermal-amplification-methods/LAMP
