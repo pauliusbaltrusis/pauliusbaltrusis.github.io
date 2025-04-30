@@ -2,7 +2,7 @@
 layout: default
 title: Primer and Probe Design
 parent: Basics
-nav_order: 5
+nav_order: 6
 has_children: true
 ---
 # Primer and Probe Design
@@ -12,7 +12,7 @@ This chapter focuses on the basics of ddPCR and the tools available to help you 
 If you'd like to create a simple gene-target detection assay, you'll need:
 
   - Primer pair sequences
-  
+
   - (Optional) Probe sequence
 
 For singleplex detection (one target at a time), you can use a DNA intercalating dye like EvaGreen, where probes aren’t necessary, and primers alone suffice. However, for multiplexing, it’s recommended to develop primer-probe pairs from the outset.

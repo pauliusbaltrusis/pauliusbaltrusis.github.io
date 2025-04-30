@@ -11,21 +11,22 @@ nav:
   - About: /about
   - ddPCR:
     - Basics:
-      - Amplitude multiplexing: /Mds/PCR-method-library/Basics/Amplitude-multiplexing
-      - Basics of quantification and digital PCR assay design: /Mds/PCR-method-library/Basics/Basics-of-quantification-and-digital-PCR-assay-design
-      - Control sample types in ddPCR: /Mds/PCR-method-library/Basics/Control-sample-types-in-ddPCR
-      - Most common sample types in ddPCR: /Mds/PCR-method-library/Basics/Most-common-sample-types-in-ddPCR
-      - Primer and Probe design: /Mds/PCR-method-library/Basics/Primer-and-Probe-design
+      - Amplitude Multiplexing: /Mds/PCR-method-library/Basics/Amplitude-multiplexing
+      - Basics of Quantification and Digital PCR Assay Design: /Mds/PCR-method-library/Basics/Basics-of-quantification-and-digital-PCR-assay-design
+      - Control Sample Types in ddPCR: /Mds/PCR-method-library/Basics/Control-sample-types-in-ddPCR
+      - Most Common Sample Types in ddPCR: /Mds/PCR-method-library/Basics/Most-common-sample-types-in-ddPCR
+      - Nucleic Acid Recovery from Droplets: /Mds/PCR-method-library/Basics/Nucleic-Acid-Recovery-From-Droplets
+      - Primer and Probe Design: /Mds/PCR-method-library/Basics/Primer-and-Probe-design
     - Optimization:
-      - Dark probes: /Mds/PCR-method-library/Optimization/Dark-probes
+      - Dark pProbes: /Mds/PCR-method-library/Optimization/Dark-probes
       - Establishing Limit of Blank Detection Quantification: /Mds/PCR-method-library/Optimization/Establishing-Limit-of-Blank-Detection-Quantification
-      - General best practises for running ddPCR and multiplexing: /Mds/PCR-method-library/Optimization/General-best-practises-for-running-ddPCR-and-multiplexing
+      - General Best Practises for Running ddPCR and Multiplexing: /Mds/PCR-method-library/Optimization/General-best-practises-for-running-ddPCR-and-multiplexing
       - Locked-Nucleic Acids & Degenerate bases: /Mds/PCR-method-library/Optimization/Locked-Nucleic-Acids-and-Degenerate-bases
       - Rainbow Probes: /Mds/PCR-method-library/Optimization/Rainbow-Probes
       - Singleplex Multiplex ddPCR Reaction Optimization: /Mds/PCR-method-library/Optimization/Singleplex-Multiplex-ddPCR-Reaction-Optimization
     - DNA-based ddPCR Methods:
       - CAR-T Therapy:  /Mds/PCR-method-library/DNA-based-methods/CAR-T-Therapy
-      - Drop-off probes: /Mds/PCR-method-library/DNA-based-methods/Drop-off-Probes
+      - Drop-off Probes: /Mds/PCR-method-library/DNA-based-methods/Drop-off-Probes
       - Gene Editing with CRISPR/Cas: /Mds/PCR-method-library/DNA-based-methods/Gene-Editing-with-CRISPR-Cas
       - Gene Linkage EHEC Example: /Mds/PCR-method-library/DNA-based-methods/Gene-linkage-EHEC-example
       - Linkage and Phasing: /Mds/PCR-method-library/DNA-based-methods/Linkage-and-Phasing
