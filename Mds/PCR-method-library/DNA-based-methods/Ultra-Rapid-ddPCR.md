@@ -3,7 +3,7 @@ layout: default
 title: Ultra-Rapid ddPCR
 parent: DNA-based ddPCR Methods
 has_children: true
-nav_order: 15
+nav_order: 17
 ---
 
 # Ultra-Rapid ddPCR
