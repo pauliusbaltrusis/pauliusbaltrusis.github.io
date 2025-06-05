@@ -29,7 +29,7 @@ Typically, the above 4 reaction conditions do not need to be tested (unless maki
 
 **Droplet Formation and Stability**
 
-- **Avoid Surfactants, Detergents and Carriers that Interfere with Droplets**: This is not multiplexing specific, but something that’s worth keeping in mind. It is a good idea to ensure that you have no (excessive) amounts of aggressive contaminants in your reaction mix that can destabilize droplets, as this can result in “leakage” (otherwise known as droplet shredding). In my 4,5 year-experience running ddPCR experiments, I have not observed any significant droplet shredding, even when directly running tissue lysates. That being said, excessively high concentrations of lysis agents can potentially result in reaction inhibition and/or droplet destabilization and should be avoided.
+- **Avoid Surfactants, Detergents and Carriers that Interfere with Droplets**: This is not multiplexing specific, but something that’s worth keeping in mind. It is a good idea to ensure that you have no (excessive) amounts of aggressive contaminants in your reaction mix that can destabilize droplets, as this can result in “leakage” (otherwise known as droplet shredding). In my 4,5 year-experience running ddPCR experiments, I have not observed any significant droplet shredding, even when directly running tissue lysates. Nonetheless, although ddPCR tends to be superior to qPCR in terms of inhibitor tolerance [Rački et al., 2014](https://plantmethods.biomedcentral.com/articles/10.1186/s13007-014-0042-6), excessively high concentrations of lysis agents can potentially result in significant reaction inhibition and/or droplet destabilization and should be avoided.
 
 **Fluorescence Signal Separation**
 
