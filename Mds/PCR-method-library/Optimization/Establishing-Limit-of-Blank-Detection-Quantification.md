@@ -48,7 +48,7 @@ The LoQ can range from being equivalent to the LoD to a much higher concentratio
 \* *CV is calculated (for each dilution) by dividing the standard deviation by the mean concentration of the target sequence in your replicates.* \
 *EXAMPLE: let’s imagine that for dilution X, you consistently get around 10 copies/ul of the target sequence. Your standard deviation is 0.4 copies/ul. Then, %CV = (0.4/10) * 100% = 4 %.*
 
-The image below summarizes the differences between **LoB**, **LoD** and **LoQ** and what each of these parameters represent. For more info, you can also refer to this [Bio-Rad Bulletin 7183 Ver A](<https://dna.uga.edu/wp-content/uploads/sites/51/2021/03/Droplet-Digital-PCR-Guide.pdf>).
+The image below summarizes the differences between **LoB**, **LoD** and **LoQ** and what each of these parameters represent. For more info, you can also refer to this [Bio-Rad Bulletin 7183 Ver A](<https://dna.uga.edu/wp-content/uploads/sites/51/2021/03/Droplet-Digital-PCR-Guide.pdf>) or have a look at the study published by [Forootan et al., 2017](https://www.sciencedirect.com/science/article/pii/S2214753516300286?via%3Dihub).
 
 ![image.png](Establishing%20Limit%20of%20Blank%20Detection%20Quantification/image.png)
 source: [Bio-Rad Bulletin 3674](<https://www.bio-rad.com/sites/default/files/2024-08/Bulletin_3674.pdf>)
