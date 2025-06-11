@@ -1,6 +1,8 @@
 title: PCR Method Repository
 description: A collection of cool PCR methods
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
 
 url: https://just-the-docs.github.io
 #logo: "/assets/images/web.png"
