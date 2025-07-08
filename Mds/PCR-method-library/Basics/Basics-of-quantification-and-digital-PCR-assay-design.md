@@ -11,7 +11,7 @@ has_children: true
 
 For example, let’s imagine our 20 µL sample contains 6 copies of target DNA (gene X) that we want to detect and quantify. If we disperse our sample into a large number of small partitions, assuming the partitioning is random and independent, this process can be described using a Poisson distribution (see the image below).
 
-It does not really matter where the 6 copies of our target gene X end up—whether they all end up in different partitions, all in the same partition, or something in between. The probability of each of these scenarios can be denoted as p. Let’s assume that we have 20,000 partitions. Since we only have 6 molecules, it makes sense that they are most likely to end up in different partitions, given the large number of partitions (20,000).
+It does not really matter where the 6 copies of our target gene X end up—whether they all end up in different partitions, all in the same partition, or something in between. The probability of each of these scenarios can be denoted as p. Let’s assume that we have 20,000 partitions. Since we only have 6 molecules, it makes sense that they are most likely to end up in different partitions, given the large number of partitions (20 000).
 
 Of course, it is theoretically possible that all 6 molecules will end up in the same partition. However, considering the overwhelming number of partitions compared to the number of gene X molecules, and the fact that the molecules are dispersed in a 20 µL solution (making them likely far apart), this outcome is extremely unlikely.
 
@@ -39,7 +39,21 @@ Using the ratio of the number of negative partitions to all partitions, divided 
 
 𝐶𝑜𝑝𝑖𝑒𝑠/(20 𝑢𝑙)=𝐶𝑃𝐷×𝑁_𝑡𝑜𝑡𝑎𝑙 (≈20 000) (0.00003 x 20 ul = 6 copies)
 
-**The most common ddPCR assay types**
+**Relationship Between the Limit of Detection and Droplet Counts**
+
+The level of limit of detection (LOD; of an assay) and the droplet count are two deeply intertwined parameters. Since in practice it has been observed that in order to detect 1 positive event out of 1 000 (i.e. achieve the LOD of 0.001 or 0.1%), approximately 3 times higher number of events need to be screened (in this example, 3 000 droplets need to be screened to identify 3 positive events), we can describe the relationship between the LOD of an assay and droplet count like this:
+
+**p=3/N**
+
+Where:
+
+*p* - sensitivity
+
+*N* - droplet count
+
+Thus, if we're looking to detect a rare mutation in a human genome, occurring at 0.1 % rate, we should expect to screen 3 000 gDNA molecules, requiring us, in turn, to screen approximately 3000 droplets. 
+
+**The Most Common ddPCR Assay Types**
 
 **Copy number determination.** ddPCR allows for the accurate and absolute quantification of gene (target) copies. One can even contrast and compare the measurements to a reference gene (which can be run in another channel) in order to see any discrepancies in copy number variations, such as gene (target) duplications. This simultaneous quantification of multiple targets within the same reaction is achieved by using sequence-specific hydrolysis probes labelled with different fluorescent dyes. Copy number determination methods are particularly useful in applications like quantifying plasmid copies in gene therapy, multiple (and simultaneous) pathogen detection or assessing gene amplification in cancers.
 
