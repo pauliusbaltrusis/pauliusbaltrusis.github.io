@@ -4,8 +4,8 @@ layout: home
 nav_order: 1
 ---
 
-# Welcome to my Amplification (mostly PCR) method repository!
-Feel free to browse the different (primarily) PCR methods and guides. I will be updating this repo periodically and some things might be phased in and out, depending on their relevance. Stay tuned for new stuff on this PCR-method hub!
+# Amplification method repository
+This amplification method hub includes cool & interesting, primarily PCR, methods and guides.
 
 ![weblogo.png](weblogo.png)
 
