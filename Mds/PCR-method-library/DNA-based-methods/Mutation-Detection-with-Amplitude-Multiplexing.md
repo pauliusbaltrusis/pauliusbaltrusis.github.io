@@ -3,7 +3,7 @@ layout: default
 title: Mutation Detection with Amplitude Multiplexing
 parent: DNA-based ddPCR Methods
 has_children: true
-nav_order: 10
+nav_order: 11
 ---
 
 # Mutation Detection with Amplitude Multiplexing

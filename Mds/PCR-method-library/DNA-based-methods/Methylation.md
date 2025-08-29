@@ -3,7 +3,7 @@ layout: default
 title: Methylation
 parent: DNA-based ddPCR Methods
 has_children: true
-nav_order: 8
+nav_order: 9
 ---
 
 # Methylation

@@ -27,6 +27,7 @@ nav:
       - Rainbow Probes: /Mds/PCR-method-library/Optimization/Rainbow-Probes
       - Singleplex Multiplex ddPCR Reaction Optimization: /Mds/PCR-method-library/Optimization/Singleplex-Multiplex-ddPCR-Reaction-Optimization
     - DNA-based ddPCR Methods:
+      - Allelic Imbalance for Copy Number Determination: /Mds/PCR-method-library/DNA-based-methods/Allelic-Imbalance-for-CNV
       - CAR-T Therapy:  /Mds/PCR-method-library/DNA-based-methods/CAR-T-Therapy
       - Drop-off Probes: /Mds/PCR-method-library/DNA-based-methods/Drop-off-Probes
       - Gene Editing with CRISPR/Cas: /Mds/PCR-method-library/DNA-based-methods/Gene-Editing-with-CRISPR-Cas

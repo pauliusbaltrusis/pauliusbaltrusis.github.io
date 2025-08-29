@@ -3,7 +3,7 @@ layout: default
 title: Long Amplicon (LA) ddPCR
 parent: DNA-based ddPCR Methods
 has_children: true
-nav_order: 6
+nav_order: 7
 ---
 
 # Long Amplicon (LA) ddPCR

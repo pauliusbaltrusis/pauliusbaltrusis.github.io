@@ -3,7 +3,7 @@ layout: default
 title: Mediator Probe ddPCR
 parent: DNA-based ddPCR Methods
 has_children: true
-nav_order: 7
+nav_order: 8
 ---
 
 # Mediator Probe ddPCR

@@ -3,7 +3,7 @@ layout: default
 title: Structural Variants
 parent: DNA-based ddPCR Methods
 has_children: true
-nav_order: 15
+nav_order: 16
 ---
 
 # Structural Variants

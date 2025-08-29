@@ -3,7 +3,7 @@ layout: default
 title: Simplified Multiplexing Strategies for Mutation Detection
 parent: DNA-based ddPCR Methods
 has_children: true
-nav_order: 13
+nav_order: 14
 ---
 
 # Simplified Multiplexing Strategies for Mutation Detection
