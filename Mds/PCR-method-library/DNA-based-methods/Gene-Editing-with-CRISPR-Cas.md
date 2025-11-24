@@ -32,3 +32,16 @@ Such a combination of assays can be then successfully utilized to distinguish be
 *source: [Miyaoka et al., 2016](https://www.nature.com/articles/srep23549), Figure 1 b*
 
 In summary, depending on whether you are interested in HDR or NHEJ (or both) mediated edits, assays specific to the different repair types can be easily created, adjusted and run together, using a two-channel-only digital PCR system.
+
+## CLEAR-time dPCR
+A culmination of detecting and quantifying various mutations, aberrations, DSBs and other effects post gene editing outcomes (on a particular locus) with CRIPR-CAS systems is a set of assays (and ultimately a guide) published by [White et al., 2025](https://www.nature.com/articles/s41467-025-65182-4).
+
+Therein, 5 different assays, consisting of a FAM and HEX probe, were used to quantify WT and MT alleles:
+![figure1aCLEAR.png](Gene-Editing-with-CRISPR-Cas/figure1aCLEAR.png)\
+*source: [White et al., 2025](https://www.nature.com/articles/s41467-025-65182-4), Figure 1 a*
+
+The authors compared their 5-assay approach to amplicon sequencing and found that targeted amplicon sequencing tends to overrepresent % of indels when working with mostly intact (very few small indels) sequences. It is of course well known that amplicon sequencing is somewhat biased and preferably amplifies intact sequences while missing longer indels and DSBs.
+
+Most notably, the authors used a double normalization method (each assay copy numbers are normalized against a ref assay (V) and then again against an unedited control sample values). This way, both sample-to-sample variation and between assay variation are accounted for.
+
+Having collected samples at different time points the authors could also tease out the temporal dynamics of editing, increase/decrease of different aberrations as well as the kinetics of different editing/repair strategies by the cells.
