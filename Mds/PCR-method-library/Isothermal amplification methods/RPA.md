@@ -37,4 +37,24 @@ nav_order: 3
 
 Initially developed for DNA detection, RPA has since been applied to various fields, including infectious disease diagnostics, environmental monitoring, and food safety testing.
 
+
+## DETECTR (CRISPR/Cas12a + RPA) method
+
+*DETECTR* or DNA Endonuclease Targeted CRISPR Trans Reporter has been developed by [Chen et al., 2019](https://www.science.org/doi/10.1126/science.aar6245) and is an example of a spectacular method combining RPA with a 2-step CRISPR-Cas12a system to generate a sensitive, fluorescence based detection of specific dsDNA sequences.
+
+ *DETECTR* is performed by:
+
+1) pre-amplifying the sequence of interest with RPA to yield more copies of the target of interest
+
+2) Introducing Cas12a-sgRNA and a single-stranded fluorescence reporter into the reaction
+
+3) a) Cas12a-sgRNA complex recognizes the specific DNA target sequence in *cys*, cuts it and b) performs indiscriminate *trans* cutting of single-stranded DNA (the fluorescence reporter) in the mix
+
+Thus by leveraging RPA-mediated pre-amplification of a target DNA sequence and Cas12 promoted site-specific dsDNA cutting and non-specific ssDNA trans-cleavage, a rapid & sensitive method can be employed to detect target DNA concentrations as low as, e.g., 0.1 copies/uL in under 60 mins (see [Cao et al., 2025](https://www.sciencedirect.com/science/article/abs/pii/S0304401725000329?casa_token=5bnWXG-hIGAAAAAA:sNc8PbIk0z2Bo-8gqBgBQlCNLg8gFHhX9Wtlv-_FMXmQdzwZN2rMr9UQIxIk_KTrLtPFqtr4JDc)).
+
+The steps in the DETECTR workflow are summarized in the illustration below:
+
+![DETECTR.png](RPA/DETECTR.png)\
+*source: [Chen et al., 2019](https://www.science.org/doi/10.1126/science.aar6245), adapted from Figure 4 C*
+
 ---
