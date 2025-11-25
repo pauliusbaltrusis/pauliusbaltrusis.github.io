@@ -34,7 +34,7 @@ Such a combination of assays can be then successfully utilized to distinguish be
 In summary, depending on whether you are interested in HDR or NHEJ (or both) mediated edits, assays specific to the different repair types can be easily created, adjusted and run together, using a two-channel-only digital PCR system.
 
 ## CLEAR-time dPCR
-A culmination of detecting and quantifying various mutations, aberrations, DSBs and other effects post gene editing outcomes (on a particular locus) with CRIPR-CAS systems is a set of assays (and ultimately a guide) published by [White et al., 2025](https://www.nature.com/articles/s41467-025-65182-4).
+A culmination of detecting and quantifying various mutations, aberrations, DSBs and other effects post gene editing (on a particular locus) with CRIPR/Cas systems is a set of assays (and ultimately a guide) published by [White et al., 2025](https://www.nature.com/articles/s41467-025-65182-4).
 
 Therein, 5 different assays, consisting of a FAM and HEX probe, were used to quantify WT and MT alleles:
 ![figure1aCLEAR.png](Gene-Editing-with-CRISPR-Cas/figure1aCLEAR.png)\
