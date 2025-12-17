@@ -13,5 +13,5 @@ That is to say, if the final sample volume is 20 uL and the dead volume is appro
 
 A great study showcasing the dead volume comparisons between different digital PCR systems is that by [Pitton et al., 2025](https://academic.oup.com/jambio/article/136/10/lxaf243/8266528?login=false), wherein the authors demonstrate the clear superiority of the Bio-Rad's QX AutoDG systems in terms of conserving the precious sample input in stark contrast to both Qiagen's QiAcuity and Stilla's older Naica systems.
 
-![Deadvol.jpeg](Dead%20volume/Deadvol.jpeg)\
+![deadvol.jpeg](Dead%20volume/deadvol.jpeg)\
 *source: [Pitton et al., 2025](https://academic.oup.com/jambio/article/136/10/lxaf243/8266528?login=false), Figure 4*
