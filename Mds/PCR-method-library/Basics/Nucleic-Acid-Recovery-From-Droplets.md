@@ -2,7 +2,7 @@
 layout: default
 title: Nucleic Acid Recovery from Droplets
 parent: Basics
-nav_order: 5
+nav_order: 6
 has_children: true
 ---
 # Nucleic Acid Recovery from Droplets

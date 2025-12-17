@@ -2,7 +2,7 @@
 layout: default
 title: Primer and Probe Design
 parent: Basics
-nav_order: 6
+nav_order: 7
 has_children: true
 ---
 # Primer and Probe Design

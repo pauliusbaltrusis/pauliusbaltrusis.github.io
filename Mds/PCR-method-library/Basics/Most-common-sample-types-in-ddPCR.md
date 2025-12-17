@@ -2,7 +2,7 @@
 layout: default
 title: Most Common Sample Types in ddPCR
 parent: Basics
-nav_order: 4
+nav_order: 5
 has_children: true
 ---
 # Most Common Sample Types in ddPCR
