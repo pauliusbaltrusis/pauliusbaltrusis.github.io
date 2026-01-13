@@ -39,19 +39,21 @@ Using the ratio of the number of negative partitions to all partitions, divided 
 
 𝐶𝑜𝑝𝑖𝑒𝑠/(20 𝑢𝑙)=𝐶𝑃𝐷×𝑁_𝑡𝑜𝑡𝑎𝑙 (≈20 000) (0.00003 x 20 ul = 6 copies)
 
-**Relationship Between the Limit of Detection and Droplet Counts**
+**Relationship Between the Limit of Detection and Interrogated Molecules, the Rule of Three**
 
-The level of limit of detection (LOD; of an assay) and the droplet count are two deeply intertwined parameters. Since in practice it has been observed that in order to detect 1 positive event out of 1 000 (i.e. achieve the LOD of 0.001 or 0.1%), approximately 3 times higher number of events need to be screened (in this example, 3 000 droplets need to be screened to identify 3 positive events), we can describe the relationship between the LOD of an assay and droplet count like this:
+The level of limit of detection (LOD; of an assay) and the number of interrogated genome equivalents are deeply intertwined parameters. Since in practice (and according to Poisson statistics) it has been observed that in order to detect 1 positive event out of 1 000 (i.e. achieve an LOD of 0.001 or 0.1%), approximately three times more genome equivalents must be screened (in this example, ~3 000 genome equivalents must be interrogated). In ddPCR, because DNA molecules are distributed into droplets according to Poisson statistics, this requires generating a larger number of droplets depending on the mean occupancy. We can therefore describe the relationship between LOD and the number of interrogated molecules as:
 
-**p=3/N**
+**p = 3 / N**
 
 Where:
 
 *p* - sensitivity
 
-*N* - droplet count
+*N* - number of molecules interrogated
 
-Thus, if we're looking to detect a rare mutation in a human genome, occurring at 0.1 % rate, we should expect to screen 3 000 gDNA molecules, requiring us, in turn, to screen approximately 3000 droplets. 
+Thus, to detect a rare mutation present at a 0.1% allele fraction with 95% confidence, approximately 3,000 genome equivalents must be interrogated.
+
+In practise, a common heuristic of determining whether a sample is positive or not is to first determine the FPR (False positive rate) by running NTCs (i.e., Non-template control samples), determining the number of positive droplets and then multiplying the number of positive droplets obtained in the NTC samples by 3. Samples containing at least 3 times higher number positive droplets than the FPR are then very likely to be positive.
 
 **The Most Common ddPCR Assay Types**
 
