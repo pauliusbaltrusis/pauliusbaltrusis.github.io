@@ -54,16 +54,4 @@ nav:
       - Single Cell RNA & Protein Quantification: /Mds/PCR-method-library/RNA and Protein-based methods/Single-cell-RNA-and-Protein-Quantification
       - Single Cell Mutant RNA Enrichment: /Mds/PCR-method-library/RNA and Protein-based methods/Single-Cell-Mutant-RNA-Enrichment
       - Single Cell Transcript Profiling and Radial Multiplexing: /Mds/PCR-method-library/RNA and Protein-based methods/Single-Cell-Transcript-Profiling-and-Radial-Multiplexing
-      - Wastewater Monitoring: /Mds/PCR-method-library/RNA and Protein-based methods/Wastewater-Monitoring
-    - Post-reading Analysis:
-  - qPCR Methods:
-    - Gene Expression Assay Setup: /Mds/PCR-method-library/qPCR/Gene-expression-reaction-setup
-    - Mediator Probe PCR: /Mds/PCR-method-library/qPCR/Mediator-Probe-qPCR
-    - Molecular Beacons: /Mds/PCR-method-library/qPCR/Molecular-Beacons
-    - Scorpion Probes: /Mds/PCR-method-library/qPCR/Scorpion-Probes
-    - T-Blocker qPCR: /Mds/PCR-method-library/qPCR/T-Blocker-qPCR
-  - Isothermal Amplification Methods:
-    - Hyperplex PCR: /Mds/PCR-method-library/Isothermal-amplification-methods/Hyperplex-PCR
-    - LAMP: /Mds/PCR-method-library/Isothermal-amplification-methods/LAMP
-    - RPA: /Mds/PCR-method-library/Isothermal-amplification-methods/RPA
-    - SuperRCA: /Mds/PCR-method-library/Isothermal-amplification-methods/SuperRCA
+      - Stem Loop Primers for miRNA Quantification: /Mds/PCR-method-library/RNA and Protein-based methods/Stem-Loop-Primers-for-miRNA-Quantification
