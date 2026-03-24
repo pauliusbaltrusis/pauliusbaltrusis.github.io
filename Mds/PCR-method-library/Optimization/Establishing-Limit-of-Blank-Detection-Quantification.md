@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Establishing Limit of Blank/Detection/Quantification for Your Assay
+title: Establishing Limit of Blank/Detection/Quantification for Your Assay(s)
 parent: Optimization
 nav_order: 2
 has_children: true
 ---
 
 
-# Establishing Limit of Blank/Detection/Quantification for Your Assay
+# Establishing Limit of Blank/Detection/Quantification for Your Assay(s)
 
 To ensure the robustness and reliability of your ddPCR assay, it is critical to define and validate key analytical parameters, such as the **Limit of Blank (LoB)**, **Limit of Detection (LoD)**, and **Limit of Quantification (LoQ)**. These metrics are foundational for accurate assay interpretation, particularly in applications such as rare mutation detection, pathogen quantification, or low-abundance target analysis.
 
@@ -41,9 +41,18 @@ For the **LoD**, the following can be done:
       LoB - previously established LoB for this assay\
       SD<sub>low concentration of target</sub> - standard deviation in samples with low concentrations of the target sequence
 
-For the **LoQ**, you can do this:
+The easiest way to determine the LoD of your particular assay is to plot the **fraction of positive replicates** (0-100%) against the measured **average concentration values of your target** in your replicates (eg., 0, 1, 10, 100 cp/ul ...), similarly to what's described by [Kubista et al., 2026](https://www.mdpi.com/1422-0067/27/6/2904):
 
-The LoQ can range from being equivalent to the LoD to a much higher concentration value but is never lower than the LoD. Using the previous dilution experiment to establish the LoD, you can identify the concentration at which the precision, typically expressed as %CV*, is equal or below to a predetermined value - e.g., 20%.
+![Figure8Kubista](Establishing%20Limit%20of%20Blank%20Detection%20Quantification/figure8Kubista.png)\
+*source: [Kubista et al., 2026](https://www.mdpi.com/1422-0067/27/6/2904), Figure 8*
+
+From here, LoD is simply the concentration of target molecules/ul (X axis) that corresponds to the detection rate of >95% (Y-axis).
+
+For the **LoQ**, you can do the following:
+
+Firstly - the LoQ can range from being equivalent to the LoD to a much higher concentration value but is never lower than the LoD. Using the previous dilution experiment to establish the LoD, you can identify the concentration at which the precision, typically expressed as %CV*, is equal or below to a predetermined value - e.g., 20%.
+
+The exact procedure of determining the LoQ can, once again, be based on simply plotting the **%CV in the different dilutions** (i.e. between the replicates of each dilution group; Y axis) against the **average target copy numbers** for every dilution category (0, 1, 10, 100 cp/ul ...; X axis). At that point, determining the cut-off point at 20% %CV (Y-axis) and finding the input concentration at which the LoQ for your assay resides should be fairly trivial. 
 
 \* *CV is calculated (for each dilution) by dividing the standard deviation by the mean concentration of the target sequence in your replicates.* \
 *EXAMPLE: let’s imagine that for dilution X, you consistently get around 10 copies/ul of the target sequence. Your standard deviation is 0.4 copies/ul. Then, %CV = (0.4/10) * 100% = 4 %.*
